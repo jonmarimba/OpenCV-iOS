@@ -17,5 +17,9 @@ git submodule update
 
 Adding OpenCV libraries to your project
 ==============================
-pending
+(details pending)
 
+Take a look at the SURF project in the examples directory, paying special attention
+to the Header Search Path build settings in the target of the Xcode project for
+an idea of how to integrate the OpenCV Libraries into our project using the OpenCV-iOS
+Xcode project to build the libraries on demand.  
