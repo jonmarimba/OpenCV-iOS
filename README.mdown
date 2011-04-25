@@ -1,8 +1,9 @@
 OpenCV-iOS
 =======
 
-OpenCV-iOS makes it easy to build OpenCV for iOS.  It contains an Xcode project
-that builds OpenCV static libraries.
+OpenCV-iOS makes it easy to build OpenCV for iOS.  It contains a submodule that will
+pull a recent copy of the OpenCV source code.  It also contains an Xcode project
+that builds OpenCV static libraries that you can add to your project.
 
 how to checkout the project
 =======
