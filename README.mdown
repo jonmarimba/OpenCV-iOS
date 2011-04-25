@@ -11,6 +11,7 @@ also checkout the OpenCV source code, which we've include as a git submodule,
 please run the following commands in the top level directory:
 
 git submodule init
+
 git submodule update
 
 Adding OpenCV libraries to your project
