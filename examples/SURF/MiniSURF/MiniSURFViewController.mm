@@ -28,7 +28,6 @@
     UIImage *img = [UIImage imageNamed:@"IPDCLogo.png"];
     objectToFind = [OpenCVUtilities CreateGRAYIplImageFromUIImage:img];
     
-    
     UIImage *otherImg = [UIImage imageNamed:@"Banner.png"];
     image = [OpenCVUtilities CreateGRAYIplImageFromUIImage:otherImg];
 }
