@@ -10,7 +10,7 @@
 #import "opencv/cv.h"
 
 //experimental NEON assembly greyscale conversion
-#include "neon_convert.h"
+//#include "neon_convert.h"
 
 static CGColorSpaceRef colorSpace = NULL;
 static CGColorSpaceRef gryColorSpace = NULL;
