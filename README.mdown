@@ -5,15 +5,19 @@ OpenCV-iOS makes it easy to build OpenCV for iOS.  It contains a submodule that 
 pull a recent copy of the OpenCV source code.  It also contains an Xcode project
 that builds OpenCV static libraries that you can add to your project.
 
-how to checkout the project
+How to checkout the project
 =======
-The usual git clone action will get you a copy of the main project.  In order to
-also checkout the OpenCV source code, which we've include as a git submodule, 
-please run the following commands in the top level directory:
 
-git submodule init
+In order to also checkout the OpenCV source code which is included as a git submodule, 
+clone the project using the `--recursive` option:
 
-git submodule update
+    git clone --recursive https://github.com/jonmarimba/OpenCV-iOS.git
+
+If you've already cloned the project, run the following commands from within the 
+OpenCV-iOS directory:
+
+    git submodule init
+    git submodule update
 
 Adding OpenCV libraries to your project
 ==============================
