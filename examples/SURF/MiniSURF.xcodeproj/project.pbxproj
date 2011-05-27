@@ -47,224 +47,224 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = ABC82531135E7B1000F4D611 /* libopencv_calib3d.a */;
+			remoteGlobalIDString = ABC82531135E7B1000F4D611;
 			remoteInfo = opencv_calib3d;
 		};
 		AB2203491364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = ABC823A2135E767D00F4D611 /* libopencv_core.a */;
+			remoteGlobalIDString = ABC823A2135E767D00F4D611;
 			remoteInfo = opencv_core;
 		};
 		AB22034B1364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = ABC824DE135E794900F4D611 /* libopencv_features2d.a */;
+			remoteGlobalIDString = ABC824DE135E794900F4D611;
 			remoteInfo = opencv_features2d;
 		};
 		AB22034D1364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = ABC8248C135E789300F4D611 /* libopencv_flann.a */;
+			remoteGlobalIDString = ABC8248C135E789300F4D611;
 			remoteInfo = opencv_flann;
 		};
 		AB22034F1364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = ABC82617135E7F8B00F4D611 /* libopencv_ts.a */;
+			remoteGlobalIDString = ABC82617135E7F8B00F4D611;
 			remoteInfo = opencv_ts;
 		};
 		AB2203511364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = ABC82404135E77A600F4D611 /* libopencv_imgproc.a */;
+			remoteGlobalIDString = ABC82404135E77A600F4D611;
 			remoteInfo = opencv_imgproc;
 		};
 		AB2203531364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = ABC8280A135E874800F4D611 /* libopencv_legacy.a */;
+			remoteGlobalIDString = ABC8280A135E874800F4D611;
 			remoteInfo = opencv_legacy;
 		};
 		AB2203551364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = ABC82873135E889600F4D611 /* libopencv_contrib.a */;
+			remoteGlobalIDString = ABC82873135E889600F4D611;
 			remoteInfo = opencv_contrib;
 		};
 		AB2203571364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = ABC8267D135E818000F4D611 /* libopencv_ml.a */;
+			remoteGlobalIDString = ABC8267D135E818000F4D611;
 			remoteInfo = opencv_ml;
 		};
 		AB2203591364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = ABC82571135E7BCA00F4D611 /* libopencv_objdetect.a */;
+			remoteGlobalIDString = ABC82571135E7BCA00F4D611;
 			remoteInfo = opencv_objdetect;
 		};
 		AB22035B1364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = ABC82646135E80B400F4D611 /* libopencv_video.a */;
+			remoteGlobalIDString = ABC82646135E80B400F4D611;
 			remoteInfo = opencv_video;
 		};
 		AB22035D1364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = ABC827D5135E851500F4D611 /* libopencv_haartraining_engine.a */;
+			remoteGlobalIDString = ABC827D5135E851500F4D611;
 			remoteInfo = opencv_haartraining_engine;
 		};
 		AB22035F1364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = ABC82128135E760300F4D611 /* libopencv_lapack.a */;
+			remoteGlobalIDString = ABC82128135E760300F4D611;
 			remoteInfo = opencv_lapack;
 		};
 		AB2203611364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = ABC81FED135E743800F4D611 /* libzlib.a */;
+			remoteGlobalIDString = ABC81FED135E743800F4D611;
 			remoteInfo = zlib;
 		};
 		AB2203631364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = ABC82068135E74F000F4D611 /* liblibjpeg.a */;
+			remoteGlobalIDString = ABC82068135E74F000F4D611;
 			remoteInfo = libjpeg;
 		};
 		AB2203651364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = ABC820F0135E754400F4D611 /* liblibpng.a */;
+			remoteGlobalIDString = ABC820F0135E754400F4D611;
 			remoteInfo = libpng;
 		};
 		AB2203671364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = ABC82530135E7B1000F4D611 /* opencv_calib3d */;
+			remoteGlobalIDString = ABC82530135E7B1000F4D611;
 			remoteInfo = opencv_calib3d;
 		};
 		AB2203691364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = ABC823A1135E767D00F4D611 /* opencv_core */;
+			remoteGlobalIDString = ABC823A1135E767D00F4D611;
 			remoteInfo = opencv_core;
 		};
 		AB22036B1364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = ABC824DD135E794900F4D611 /* opencv_features2d */;
+			remoteGlobalIDString = ABC824DD135E794900F4D611;
 			remoteInfo = opencv_features2d;
 		};
 		AB22036D1364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = ABC8248B135E789300F4D611 /* opencv_flann */;
+			remoteGlobalIDString = ABC8248B135E789300F4D611;
 			remoteInfo = opencv_flann;
 		};
 		AB22036F1364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = ABC82616135E7F8B00F4D611 /* opencv_ts */;
+			remoteGlobalIDString = ABC82616135E7F8B00F4D611;
 			remoteInfo = opencv_ts;
 		};
 		AB2203711364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = ABC82403135E77A600F4D611 /* opencv_imgproc */;
+			remoteGlobalIDString = ABC82403135E77A600F4D611;
 			remoteInfo = opencv_imgproc;
 		};
 		AB2203731364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = ABC82809135E874800F4D611 /* opencv_legacy */;
+			remoteGlobalIDString = ABC82809135E874800F4D611;
 			remoteInfo = opencv_legacy;
 		};
 		AB2203751364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = ABC82872135E889600F4D611 /* opencv_contrib */;
+			remoteGlobalIDString = ABC82872135E889600F4D611;
 			remoteInfo = opencv_contrib;
 		};
 		AB2203771364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = ABC8267C135E818000F4D611 /* opencv_ml */;
+			remoteGlobalIDString = ABC8267C135E818000F4D611;
 			remoteInfo = opencv_ml;
 		};
 		AB2203791364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = ABC82570135E7BCA00F4D611 /* opencv_objdetect */;
+			remoteGlobalIDString = ABC82570135E7BCA00F4D611;
 			remoteInfo = opencv_objdetect;
 		};
 		AB22037B1364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = ABC82645135E80B400F4D611 /* opencv_video */;
+			remoteGlobalIDString = ABC82645135E80B400F4D611;
 			remoteInfo = opencv_video;
 		};
 		AB22037D1364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = ABC827D4135E851500F4D611 /* opencv_haartraining_engine */;
+			remoteGlobalIDString = ABC827D4135E851500F4D611;
 			remoteInfo = opencv_haartraining_engine;
 		};
 		AB22037F1364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = ABC82127135E760300F4D611 /* opencv_lapack */;
+			remoteGlobalIDString = ABC82127135E760300F4D611;
 			remoteInfo = opencv_lapack;
 		};
 		AB2203811364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = ABC81FEC135E743800F4D611 /* zlib */;
+			remoteGlobalIDString = ABC81FEC135E743800F4D611;
 			remoteInfo = zlib;
 		};
 		AB2203831364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = ABC82067135E74F000F4D611 /* libjpeg */;
+			remoteGlobalIDString = ABC82067135E74F000F4D611;
 			remoteInfo = libjpeg;
 		};
 		AB2203851364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = ABC820EF135E754400F4D611 /* libpng */;
+			remoteGlobalIDString = ABC820EF135E754400F4D611;
 			remoteInfo = libpng;
 		};
 /* End PBXContainerItemProxy section */

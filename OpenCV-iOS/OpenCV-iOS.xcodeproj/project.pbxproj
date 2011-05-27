@@ -25,7 +25,6 @@
 				ABC828B0135E899300F4D611 /* PBXTargetDependency */,
 				ABC828B2135E899300F4D611 /* PBXTargetDependency */,
 				ABC828B4135E899300F4D611 /* PBXTargetDependency */,
-				ABC828B6135E899300F4D611 /* PBXTargetDependency */,
 				ABC828B8135E899300F4D611 /* PBXTargetDependency */,
 				ABC828BA135E899300F4D611 /* PBXTargetDependency */,
 				ABC828BC135E899300F4D611 /* PBXTargetDependency */,
@@ -48,7 +47,6 @@
 		AB3D41B01364EB22008FCC43 /* crt_externs.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3D41A61364EB22008FCC43 /* crt_externs.h */; };
 		AB3D41B11364EB22008FCC43 /* crt_externs.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3D41A61364EB22008FCC43 /* crt_externs.h */; };
 		AB3D41B21364EB22008FCC43 /* crt_externs.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3D41A61364EB22008FCC43 /* crt_externs.h */; };
-		AB3D41B31364EB22008FCC43 /* crt_externs.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3D41A61364EB22008FCC43 /* crt_externs.h */; };
 		AB3D41B41364EB22008FCC43 /* crt_externs.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3D41A61364EB22008FCC43 /* crt_externs.h */; };
 		AB3D41B51364EB22008FCC43 /* crt_externs.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3D41A61364EB22008FCC43 /* crt_externs.h */; };
 		AB3D41B61364EB22008FCC43 /* crt_externs.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3D41A61364EB22008FCC43 /* crt_externs.h */; };
@@ -76,8 +74,6 @@
 		ABC82043135E74B800F4D611 /* inftrees.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC8200B135E74B800F4D611 /* inftrees.h */; };
 		ABC82044135E74B800F4D611 /* trees.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC8200C135E74B800F4D611 /* trees.h */; };
 		ABC82045135E74B800F4D611 /* zutil.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC8200D135E74B800F4D611 /* zutil.h */; };
-		ABC82046135E74B800F4D611 /* zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC8200E135E74B800F4D611 /* zlib.h */; };
-		ABC82047135E74B800F4D611 /* zconf.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC8200F135E74B800F4D611 /* zconf.h */; };
 		ABC820AF135E752100F4D611 /* jcapimin.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82072135E752100F4D611 /* jcapimin.c */; };
 		ABC820B0135E752100F4D611 /* jcapistd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82073135E752100F4D611 /* jcapistd.c */; };
 		ABC820B1135E752100F4D611 /* jccoefct.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82074135E752100F4D611 /* jccoefct.c */; };
@@ -134,9 +130,6 @@
 		ABC820E4135E752100F4D611 /* jpegint.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC820A8135E752100F4D611 /* jpegint.h */; };
 		ABC820E5135E752100F4D611 /* jversion.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC820A9135E752100F4D611 /* jversion.h */; };
 		ABC820E6135E752100F4D611 /* transupp.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC820AA135E752100F4D611 /* transupp.h */; };
-		ABC820E7135E752100F4D611 /* jconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC820AB135E752100F4D611 /* jconfig.h */; };
-		ABC820E8135E752100F4D611 /* jmorecfg.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC820AC135E752100F4D611 /* jmorecfg.h */; };
-		ABC820E9135E752100F4D611 /* jpeglib.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC820AD135E752100F4D611 /* jpeglib.h */; };
 		ABC82109135E755300F4D611 /* png.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC820F5135E755200F4D611 /* png.c */; };
 		ABC8210A135E755300F4D611 /* pngerror.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC820F6135E755200F4D611 /* pngerror.c */; };
 		ABC8210B135E755300F4D611 /* pngget.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC820F7135E755200F4D611 /* pngget.c */; };
@@ -155,313 +148,6 @@
 		ABC82118135E755300F4D611 /* pngwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82104135E755200F4D611 /* pngwutil.c */; };
 		ABC82119135E755300F4D611 /* png.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC82106135E755200F4D611 /* png.h */; };
 		ABC8211A135E755300F4D611 /* pngpriv.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC82107135E755200F4D611 /* pngpriv.h */; };
-		ABC82262135E761600F4D611 /* dasum.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8212D135E761600F4D611 /* dasum.c */; };
-		ABC82263135E761600F4D611 /* daxpy.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8212E135E761600F4D611 /* daxpy.c */; };
-		ABC82264135E761600F4D611 /* dbdsdc.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8212F135E761600F4D611 /* dbdsdc.c */; };
-		ABC82265135E761600F4D611 /* dbdsqr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82130135E761600F4D611 /* dbdsqr.c */; };
-		ABC82266135E761600F4D611 /* dcopy.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82131135E761600F4D611 /* dcopy.c */; };
-		ABC82267135E761600F4D611 /* ddot.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82132135E761600F4D611 /* ddot.c */; };
-		ABC82268135E761600F4D611 /* dgebd2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82133135E761600F4D611 /* dgebd2.c */; };
-		ABC82269135E761600F4D611 /* dgebrd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82134135E761600F4D611 /* dgebrd.c */; };
-		ABC8226A135E761600F4D611 /* dgelq2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82135135E761600F4D611 /* dgelq2.c */; };
-		ABC8226B135E761600F4D611 /* dgelqf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82136135E761600F4D611 /* dgelqf.c */; };
-		ABC8226C135E761600F4D611 /* dgels.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82137135E761600F4D611 /* dgels.c */; };
-		ABC8226D135E761600F4D611 /* dgelsd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82138135E761600F4D611 /* dgelsd.c */; };
-		ABC8226E135E761600F4D611 /* dgemm.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82139135E761600F4D611 /* dgemm.c */; };
-		ABC8226F135E761600F4D611 /* dgemv_custom.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8213A135E761600F4D611 /* dgemv_custom.c */; };
-		ABC82270135E761600F4D611 /* dgeqr2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8213B135E761600F4D611 /* dgeqr2.c */; };
-		ABC82271135E761600F4D611 /* dgeqrf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8213C135E761600F4D611 /* dgeqrf.c */; };
-		ABC82272135E761600F4D611 /* dger_custom.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8213D135E761600F4D611 /* dger_custom.c */; };
-		ABC82273135E761600F4D611 /* dgesdd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8213E135E761600F4D611 /* dgesdd.c */; };
-		ABC82274135E761600F4D611 /* dgesv.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8213F135E761600F4D611 /* dgesv.c */; };
-		ABC82275135E761600F4D611 /* dgetf2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82140135E761600F4D611 /* dgetf2.c */; };
-		ABC82276135E761600F4D611 /* dgetrf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82141135E761600F4D611 /* dgetrf.c */; };
-		ABC82277135E761600F4D611 /* dgetri.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82142135E761600F4D611 /* dgetri.c */; };
-		ABC82278135E761600F4D611 /* dgetrs.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82143135E761600F4D611 /* dgetrs.c */; };
-		ABC82279135E761600F4D611 /* dlabad.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82144135E761600F4D611 /* dlabad.c */; };
-		ABC8227A135E761600F4D611 /* dlabrd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82145135E761600F4D611 /* dlabrd.c */; };
-		ABC8227B135E761600F4D611 /* dlacpy.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82146135E761600F4D611 /* dlacpy.c */; };
-		ABC8227C135E761600F4D611 /* dlae2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82147135E761600F4D611 /* dlae2.c */; };
-		ABC8227D135E761600F4D611 /* dlaebz.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82148135E761600F4D611 /* dlaebz.c */; };
-		ABC8227E135E761600F4D611 /* dlaed0.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82149135E761600F4D611 /* dlaed0.c */; };
-		ABC8227F135E761600F4D611 /* dlaed1.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8214A135E761600F4D611 /* dlaed1.c */; };
-		ABC82280135E761600F4D611 /* dlaed2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8214B135E761600F4D611 /* dlaed2.c */; };
-		ABC82281135E761600F4D611 /* dlaed3.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8214C135E761600F4D611 /* dlaed3.c */; };
-		ABC82282135E761600F4D611 /* dlaed4.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8214D135E761600F4D611 /* dlaed4.c */; };
-		ABC82283135E761600F4D611 /* dlaed5.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8214E135E761600F4D611 /* dlaed5.c */; };
-		ABC82284135E761600F4D611 /* dlaed6.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8214F135E761600F4D611 /* dlaed6.c */; };
-		ABC82285135E761600F4D611 /* dlaed7.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82150135E761600F4D611 /* dlaed7.c */; };
-		ABC82286135E761600F4D611 /* dlaed8.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82151135E761600F4D611 /* dlaed8.c */; };
-		ABC82287135E761600F4D611 /* dlaed9.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82152135E761600F4D611 /* dlaed9.c */; };
-		ABC82288135E761600F4D611 /* dlaeda.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82153135E761600F4D611 /* dlaeda.c */; };
-		ABC82289135E761600F4D611 /* dlaev2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82154135E761600F4D611 /* dlaev2.c */; };
-		ABC8228A135E761600F4D611 /* dlagtf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82155135E761600F4D611 /* dlagtf.c */; };
-		ABC8228B135E761600F4D611 /* dlagts.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82156135E761600F4D611 /* dlagts.c */; };
-		ABC8228C135E761600F4D611 /* dlaisnan.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82157135E761600F4D611 /* dlaisnan.c */; };
-		ABC8228D135E761600F4D611 /* dlals0.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82158135E761600F4D611 /* dlals0.c */; };
-		ABC8228E135E761600F4D611 /* dlalsa.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82159135E761600F4D611 /* dlalsa.c */; };
-		ABC8228F135E761600F4D611 /* dlalsd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8215A135E761600F4D611 /* dlalsd.c */; };
-		ABC82290135E761600F4D611 /* dlamch_custom.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8215B135E761600F4D611 /* dlamch_custom.c */; };
-		ABC82291135E761600F4D611 /* dlamrg.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8215C135E761600F4D611 /* dlamrg.c */; };
-		ABC82292135E761600F4D611 /* dlaneg.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8215D135E761600F4D611 /* dlaneg.c */; };
-		ABC82293135E761600F4D611 /* dlange.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8215E135E761600F4D611 /* dlange.c */; };
-		ABC82294135E761600F4D611 /* dlanst.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8215F135E761600F4D611 /* dlanst.c */; };
-		ABC82295135E761600F4D611 /* dlansy.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82160135E761600F4D611 /* dlansy.c */; };
-		ABC82296135E761600F4D611 /* dlapy2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82161135E761600F4D611 /* dlapy2.c */; };
-		ABC82297135E761600F4D611 /* dlar1v.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82162135E761600F4D611 /* dlar1v.c */; };
-		ABC82298135E761600F4D611 /* dlarf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82163135E761600F4D611 /* dlarf.c */; };
-		ABC82299135E761600F4D611 /* dlarfb.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82164135E761600F4D611 /* dlarfb.c */; };
-		ABC8229A135E761600F4D611 /* dlarfg.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82165135E761600F4D611 /* dlarfg.c */; };
-		ABC8229B135E761600F4D611 /* dlarfp.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82166135E761600F4D611 /* dlarfp.c */; };
-		ABC8229C135E761600F4D611 /* dlarft.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82167135E761600F4D611 /* dlarft.c */; };
-		ABC8229D135E761600F4D611 /* dlarnv.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82168135E761600F4D611 /* dlarnv.c */; };
-		ABC8229E135E761600F4D611 /* dlarra.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82169135E761600F4D611 /* dlarra.c */; };
-		ABC8229F135E761600F4D611 /* dlarrb.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8216A135E761600F4D611 /* dlarrb.c */; };
-		ABC822A0135E761600F4D611 /* dlarrc.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8216B135E761600F4D611 /* dlarrc.c */; };
-		ABC822A1135E761600F4D611 /* dlarrd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8216C135E761600F4D611 /* dlarrd.c */; };
-		ABC822A2135E761600F4D611 /* dlarre.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8216D135E761600F4D611 /* dlarre.c */; };
-		ABC822A3135E761600F4D611 /* dlarrf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8216E135E761600F4D611 /* dlarrf.c */; };
-		ABC822A4135E761600F4D611 /* dlarrj.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8216F135E761600F4D611 /* dlarrj.c */; };
-		ABC822A5135E761600F4D611 /* dlarrk.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82170135E761600F4D611 /* dlarrk.c */; };
-		ABC822A6135E761600F4D611 /* dlarrr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82171135E761600F4D611 /* dlarrr.c */; };
-		ABC822A7135E761600F4D611 /* dlarrv.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82172135E761600F4D611 /* dlarrv.c */; };
-		ABC822A8135E761600F4D611 /* dlartg_custom.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82173135E761600F4D611 /* dlartg_custom.c */; };
-		ABC822A9135E761600F4D611 /* dlaruv.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82174135E761600F4D611 /* dlaruv.c */; };
-		ABC822AA135E761600F4D611 /* dlas2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82175135E761600F4D611 /* dlas2.c */; };
-		ABC822AB135E761600F4D611 /* dlascl.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82176135E761600F4D611 /* dlascl.c */; };
-		ABC822AC135E761600F4D611 /* dlasd0.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82177135E761600F4D611 /* dlasd0.c */; };
-		ABC822AD135E761600F4D611 /* dlasd1.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82178135E761600F4D611 /* dlasd1.c */; };
-		ABC822AE135E761600F4D611 /* dlasd2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82179135E761600F4D611 /* dlasd2.c */; };
-		ABC822AF135E761600F4D611 /* dlasd3.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8217A135E761600F4D611 /* dlasd3.c */; };
-		ABC822B0135E761600F4D611 /* dlasd4.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8217B135E761600F4D611 /* dlasd4.c */; };
-		ABC822B1135E761600F4D611 /* dlasd5.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8217C135E761600F4D611 /* dlasd5.c */; };
-		ABC822B2135E761600F4D611 /* dlasd6.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8217D135E761600F4D611 /* dlasd6.c */; };
-		ABC822B3135E761600F4D611 /* dlasd7.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8217E135E761600F4D611 /* dlasd7.c */; };
-		ABC822B4135E761600F4D611 /* dlasd8.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8217F135E761600F4D611 /* dlasd8.c */; };
-		ABC822B5135E761600F4D611 /* dlasda.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82180135E761600F4D611 /* dlasda.c */; };
-		ABC822B6135E761600F4D611 /* dlasdq.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82181135E761600F4D611 /* dlasdq.c */; };
-		ABC822B7135E761600F4D611 /* dlasdt.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82182135E761600F4D611 /* dlasdt.c */; };
-		ABC822B8135E761600F4D611 /* dlaset.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82183135E761600F4D611 /* dlaset.c */; };
-		ABC822B9135E761600F4D611 /* dlasq1.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82184135E761600F4D611 /* dlasq1.c */; };
-		ABC822BA135E761600F4D611 /* dlasq2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82185135E761600F4D611 /* dlasq2.c */; };
-		ABC822BB135E761600F4D611 /* dlasq3.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82186135E761600F4D611 /* dlasq3.c */; };
-		ABC822BC135E761600F4D611 /* dlasq4.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82187135E761600F4D611 /* dlasq4.c */; };
-		ABC822BD135E761600F4D611 /* dlasq5.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82188135E761600F4D611 /* dlasq5.c */; };
-		ABC822BE135E761600F4D611 /* dlasq6.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82189135E761600F4D611 /* dlasq6.c */; };
-		ABC822BF135E761600F4D611 /* dlasr_custom.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8218A135E761600F4D611 /* dlasr_custom.c */; };
-		ABC822C0135E761600F4D611 /* dlasrt.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8218B135E761600F4D611 /* dlasrt.c */; };
-		ABC822C1135E761600F4D611 /* dlassq.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8218C135E761600F4D611 /* dlassq.c */; };
-		ABC822C2135E761600F4D611 /* dlasv2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8218D135E761600F4D611 /* dlasv2.c */; };
-		ABC822C3135E761600F4D611 /* dlaswp.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8218E135E761600F4D611 /* dlaswp.c */; };
-		ABC822C4135E761600F4D611 /* dlasyf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8218F135E761600F4D611 /* dlasyf.c */; };
-		ABC822C5135E761600F4D611 /* dlatrd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82190135E761600F4D611 /* dlatrd.c */; };
-		ABC822C6135E761600F4D611 /* dlauu2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82191135E761600F4D611 /* dlauu2.c */; };
-		ABC822C7135E761600F4D611 /* dlauum.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82192135E761600F4D611 /* dlauum.c */; };
-		ABC822C8135E761600F4D611 /* dnrm2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82193135E761600F4D611 /* dnrm2.c */; };
-		ABC822C9135E761600F4D611 /* dorg2r.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82194135E761600F4D611 /* dorg2r.c */; };
-		ABC822CA135E761600F4D611 /* dorgbr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82195135E761600F4D611 /* dorgbr.c */; };
-		ABC822CB135E761600F4D611 /* dorgl2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82196135E761600F4D611 /* dorgl2.c */; };
-		ABC822CC135E761600F4D611 /* dorglq.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82197135E761600F4D611 /* dorglq.c */; };
-		ABC822CD135E761600F4D611 /* dorgqr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82198135E761600F4D611 /* dorgqr.c */; };
-		ABC822CE135E761600F4D611 /* dorm2l.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82199135E761600F4D611 /* dorm2l.c */; };
-		ABC822CF135E761600F4D611 /* dorm2r.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8219A135E761600F4D611 /* dorm2r.c */; };
-		ABC822D0135E761600F4D611 /* dormbr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8219B135E761600F4D611 /* dormbr.c */; };
-		ABC822D1135E761600F4D611 /* dorml2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8219C135E761600F4D611 /* dorml2.c */; };
-		ABC822D2135E761600F4D611 /* dormlq.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8219D135E761600F4D611 /* dormlq.c */; };
-		ABC822D3135E761600F4D611 /* dormql.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8219E135E761600F4D611 /* dormql.c */; };
-		ABC822D4135E761600F4D611 /* dormqr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8219F135E761600F4D611 /* dormqr.c */; };
-		ABC822D5135E761600F4D611 /* dormtr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821A0135E761600F4D611 /* dormtr.c */; };
-		ABC822D6135E761600F4D611 /* dpotf2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821A1135E761600F4D611 /* dpotf2.c */; };
-		ABC822D7135E761600F4D611 /* dpotrf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821A2135E761600F4D611 /* dpotrf.c */; };
-		ABC822D8135E761600F4D611 /* dpotri.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821A3135E761600F4D611 /* dpotri.c */; };
-		ABC822D9135E761600F4D611 /* dpotrs.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821A4135E761600F4D611 /* dpotrs.c */; };
-		ABC822DA135E761600F4D611 /* drot.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821A5135E761600F4D611 /* drot.c */; };
-		ABC822DB135E761600F4D611 /* dscal.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821A6135E761600F4D611 /* dscal.c */; };
-		ABC822DC135E761600F4D611 /* dstebz.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821A7135E761600F4D611 /* dstebz.c */; };
-		ABC822DD135E761600F4D611 /* dstein.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821A8135E761600F4D611 /* dstein.c */; };
-		ABC822DE135E761600F4D611 /* dstemr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821A9135E761600F4D611 /* dstemr.c */; };
-		ABC822DF135E761600F4D611 /* dsteqr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821AA135E761600F4D611 /* dsteqr.c */; };
-		ABC822E0135E761600F4D611 /* dsterf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821AB135E761600F4D611 /* dsterf.c */; };
-		ABC822E1135E761600F4D611 /* dswap.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821AC135E761600F4D611 /* dswap.c */; };
-		ABC822E2135E761600F4D611 /* dsyevr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821AD135E761600F4D611 /* dsyevr.c */; };
-		ABC822E3135E761600F4D611 /* dsymv.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821AE135E761600F4D611 /* dsymv.c */; };
-		ABC822E4135E761600F4D611 /* dsyr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821AF135E761600F4D611 /* dsyr.c */; };
-		ABC822E5135E761600F4D611 /* dsyr2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821B0135E761600F4D611 /* dsyr2.c */; };
-		ABC822E6135E761600F4D611 /* dsyr2k.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821B1135E761600F4D611 /* dsyr2k.c */; };
-		ABC822E7135E761600F4D611 /* dsyrk.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821B2135E761600F4D611 /* dsyrk.c */; };
-		ABC822E8135E761600F4D611 /* dsytd2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821B3135E761600F4D611 /* dsytd2.c */; };
-		ABC822E9135E761600F4D611 /* dsytf2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821B4135E761600F4D611 /* dsytf2.c */; };
-		ABC822EA135E761600F4D611 /* dsytrd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821B5135E761600F4D611 /* dsytrd.c */; };
-		ABC822EB135E761600F4D611 /* dsytrf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821B6135E761600F4D611 /* dsytrf.c */; };
-		ABC822EC135E761600F4D611 /* dsytri.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821B7135E761600F4D611 /* dsytri.c */; };
-		ABC822ED135E761600F4D611 /* dsytrs.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821B8135E761600F4D611 /* dsytrs.c */; };
-		ABC822EE135E761600F4D611 /* dtrmm.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821B9135E761600F4D611 /* dtrmm.c */; };
-		ABC822EF135E761600F4D611 /* dtrmv.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821BA135E761600F4D611 /* dtrmv.c */; };
-		ABC822F0135E761600F4D611 /* dtrsm.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821BB135E761600F4D611 /* dtrsm.c */; };
-		ABC822F1135E761600F4D611 /* dtrti2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821BC135E761600F4D611 /* dtrti2.c */; };
-		ABC822F2135E761600F4D611 /* dtrtri.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821BD135E761600F4D611 /* dtrtri.c */; };
-		ABC822F3135E761600F4D611 /* dtrtrs.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821BE135E761600F4D611 /* dtrtrs.c */; };
-		ABC822F4135E761600F4D611 /* f77_aloc.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821BF135E761600F4D611 /* f77_aloc.c */; };
-		ABC822F5135E761600F4D611 /* idamax.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821C0135E761600F4D611 /* idamax.c */; };
-		ABC822F6135E761600F4D611 /* ieeeck.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821C1135E761600F4D611 /* ieeeck.c */; };
-		ABC822F7135E761600F4D611 /* iladlc.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821C2135E761600F4D611 /* iladlc.c */; };
-		ABC822F8135E761600F4D611 /* iladlr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821C3135E761600F4D611 /* iladlr.c */; };
-		ABC822F9135E761600F4D611 /* ilaenv_custom.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821C4135E761600F4D611 /* ilaenv_custom.c */; };
-		ABC822FA135E761600F4D611 /* ilaslc.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821C5135E761600F4D611 /* ilaslc.c */; };
-		ABC822FB135E761600F4D611 /* ilaslr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821C6135E761600F4D611 /* ilaslr.c */; };
-		ABC822FC135E761600F4D611 /* iparmq.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821C7135E761600F4D611 /* iparmq.c */; };
-		ABC822FD135E761600F4D611 /* isamax.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821C8135E761600F4D611 /* isamax.c */; };
-		ABC822FE135E761600F4D611 /* pow_di.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821C9135E761600F4D611 /* pow_di.c */; };
-		ABC822FF135E761600F4D611 /* pow_ii.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821CA135E761600F4D611 /* pow_ii.c */; };
-		ABC82300135E761600F4D611 /* pow_ri.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821CB135E761600F4D611 /* pow_ri.c */; };
-		ABC82301135E761600F4D611 /* precomp.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821CC135E761600F4D611 /* precomp.c */; };
-		ABC82302135E761600F4D611 /* s_cat.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821CD135E761600F4D611 /* s_cat.c */; };
-		ABC82303135E761600F4D611 /* s_cmp.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821CE135E761600F4D611 /* s_cmp.c */; };
-		ABC82304135E761600F4D611 /* s_copy.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821CF135E761600F4D611 /* s_copy.c */; };
-		ABC82305135E761600F4D611 /* sasum.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821D0135E761600F4D611 /* sasum.c */; };
-		ABC82306135E761600F4D611 /* saxpy.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821D1135E761600F4D611 /* saxpy.c */; };
-		ABC82307135E761600F4D611 /* sbdsdc.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821D2135E761600F4D611 /* sbdsdc.c */; };
-		ABC82308135E761600F4D611 /* sbdsqr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821D3135E761600F4D611 /* sbdsqr.c */; };
-		ABC82309135E761600F4D611 /* scopy.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821D4135E761600F4D611 /* scopy.c */; };
-		ABC8230A135E761600F4D611 /* sdot.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821D5135E761600F4D611 /* sdot.c */; };
-		ABC8230B135E761600F4D611 /* sgebd2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821D6135E761600F4D611 /* sgebd2.c */; };
-		ABC8230C135E761600F4D611 /* sgebrd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821D7135E761600F4D611 /* sgebrd.c */; };
-		ABC8230D135E761600F4D611 /* sgelq2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821D8135E761600F4D611 /* sgelq2.c */; };
-		ABC8230E135E761600F4D611 /* sgelqf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821D9135E761600F4D611 /* sgelqf.c */; };
-		ABC8230F135E761600F4D611 /* sgels.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821DA135E761600F4D611 /* sgels.c */; };
-		ABC82310135E761600F4D611 /* sgelsd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821DB135E761600F4D611 /* sgelsd.c */; };
-		ABC82311135E761600F4D611 /* sgemm.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821DC135E761600F4D611 /* sgemm.c */; };
-		ABC82312135E761600F4D611 /* sgemv_custom.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821DD135E761600F4D611 /* sgemv_custom.c */; };
-		ABC82313135E761600F4D611 /* sgeqr2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821DE135E761600F4D611 /* sgeqr2.c */; };
-		ABC82314135E761600F4D611 /* sgeqrf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821DF135E761600F4D611 /* sgeqrf.c */; };
-		ABC82315135E761600F4D611 /* sger_custom.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821E0135E761600F4D611 /* sger_custom.c */; };
-		ABC82316135E761600F4D611 /* sgesdd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821E1135E761600F4D611 /* sgesdd.c */; };
-		ABC82317135E761600F4D611 /* sgesv.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821E2135E761600F4D611 /* sgesv.c */; };
-		ABC82318135E761600F4D611 /* sgetf2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821E3135E761600F4D611 /* sgetf2.c */; };
-		ABC82319135E761600F4D611 /* sgetrf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821E4135E761600F4D611 /* sgetrf.c */; };
-		ABC8231A135E761600F4D611 /* sgetri.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821E5135E761600F4D611 /* sgetri.c */; };
-		ABC8231B135E761600F4D611 /* sgetrs.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821E6135E761600F4D611 /* sgetrs.c */; };
-		ABC8231C135E761600F4D611 /* slabad.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821E7135E761600F4D611 /* slabad.c */; };
-		ABC8231D135E761600F4D611 /* slabrd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821E8135E761600F4D611 /* slabrd.c */; };
-		ABC8231E135E761600F4D611 /* slacpy.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821E9135E761600F4D611 /* slacpy.c */; };
-		ABC8231F135E761600F4D611 /* slae2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821EA135E761600F4D611 /* slae2.c */; };
-		ABC82320135E761600F4D611 /* slaebz.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821EB135E761600F4D611 /* slaebz.c */; };
-		ABC82321135E761600F4D611 /* slaed0.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821EC135E761600F4D611 /* slaed0.c */; };
-		ABC82322135E761600F4D611 /* slaed1.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821ED135E761600F4D611 /* slaed1.c */; };
-		ABC82323135E761600F4D611 /* slaed2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821EE135E761600F4D611 /* slaed2.c */; };
-		ABC82324135E761600F4D611 /* slaed3.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821EF135E761600F4D611 /* slaed3.c */; };
-		ABC82325135E761600F4D611 /* slaed4.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821F0135E761600F4D611 /* slaed4.c */; };
-		ABC82326135E761600F4D611 /* slaed5.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821F1135E761600F4D611 /* slaed5.c */; };
-		ABC82327135E761600F4D611 /* slaed6.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821F2135E761600F4D611 /* slaed6.c */; };
-		ABC82328135E761600F4D611 /* slaed7.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821F3135E761600F4D611 /* slaed7.c */; };
-		ABC82329135E761600F4D611 /* slaed8.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821F4135E761600F4D611 /* slaed8.c */; };
-		ABC8232A135E761600F4D611 /* slaed9.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821F5135E761600F4D611 /* slaed9.c */; };
-		ABC8232B135E761600F4D611 /* slaeda.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821F6135E761600F4D611 /* slaeda.c */; };
-		ABC8232C135E761600F4D611 /* slaev2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821F7135E761600F4D611 /* slaev2.c */; };
-		ABC8232D135E761600F4D611 /* slagtf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821F8135E761600F4D611 /* slagtf.c */; };
-		ABC8232E135E761600F4D611 /* slagts.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821F9135E761600F4D611 /* slagts.c */; };
-		ABC8232F135E761600F4D611 /* slaisnan.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821FA135E761600F4D611 /* slaisnan.c */; };
-		ABC82330135E761600F4D611 /* slals0.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821FB135E761600F4D611 /* slals0.c */; };
-		ABC82331135E761600F4D611 /* slalsa.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821FC135E761600F4D611 /* slalsa.c */; };
-		ABC82332135E761600F4D611 /* slalsd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821FD135E761600F4D611 /* slalsd.c */; };
-		ABC82333135E761600F4D611 /* slamch_custom.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821FE135E761600F4D611 /* slamch_custom.c */; };
-		ABC82334135E761600F4D611 /* slamrg.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC821FF135E761600F4D611 /* slamrg.c */; };
-		ABC82335135E761600F4D611 /* slaneg.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82200135E761600F4D611 /* slaneg.c */; };
-		ABC82336135E761600F4D611 /* slange.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82201135E761600F4D611 /* slange.c */; };
-		ABC82337135E761600F4D611 /* slanst.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82202135E761600F4D611 /* slanst.c */; };
-		ABC82338135E761600F4D611 /* slansy.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82203135E761600F4D611 /* slansy.c */; };
-		ABC82339135E761600F4D611 /* slapy2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82204135E761600F4D611 /* slapy2.c */; };
-		ABC8233A135E761600F4D611 /* slar1v.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82205135E761600F4D611 /* slar1v.c */; };
-		ABC8233B135E761600F4D611 /* slarf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82206135E761600F4D611 /* slarf.c */; };
-		ABC8233C135E761600F4D611 /* slarfb.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82207135E761600F4D611 /* slarfb.c */; };
-		ABC8233D135E761600F4D611 /* slarfg.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82208135E761600F4D611 /* slarfg.c */; };
-		ABC8233E135E761600F4D611 /* slarfp.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82209135E761600F4D611 /* slarfp.c */; };
-		ABC8233F135E761600F4D611 /* slarft.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8220A135E761600F4D611 /* slarft.c */; };
-		ABC82340135E761600F4D611 /* slarnv.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8220B135E761600F4D611 /* slarnv.c */; };
-		ABC82341135E761600F4D611 /* slarra.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8220C135E761600F4D611 /* slarra.c */; };
-		ABC82342135E761600F4D611 /* slarrb.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8220D135E761600F4D611 /* slarrb.c */; };
-		ABC82343135E761600F4D611 /* slarrc.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8220E135E761600F4D611 /* slarrc.c */; };
-		ABC82344135E761600F4D611 /* slarrd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8220F135E761600F4D611 /* slarrd.c */; };
-		ABC82345135E761600F4D611 /* slarre.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82210135E761600F4D611 /* slarre.c */; };
-		ABC82346135E761600F4D611 /* slarrf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82211135E761600F4D611 /* slarrf.c */; };
-		ABC82347135E761600F4D611 /* slarrj.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82212135E761600F4D611 /* slarrj.c */; };
-		ABC82348135E761600F4D611 /* slarrk.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82213135E761600F4D611 /* slarrk.c */; };
-		ABC82349135E761600F4D611 /* slarrr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82214135E761600F4D611 /* slarrr.c */; };
-		ABC8234A135E761600F4D611 /* slarrv.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82215135E761600F4D611 /* slarrv.c */; };
-		ABC8234B135E761600F4D611 /* slartg_custom.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82216135E761600F4D611 /* slartg_custom.c */; };
-		ABC8234C135E761600F4D611 /* slaruv.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82217135E761600F4D611 /* slaruv.c */; };
-		ABC8234D135E761600F4D611 /* slas2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82218135E761600F4D611 /* slas2.c */; };
-		ABC8234E135E761600F4D611 /* slascl.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82219135E761600F4D611 /* slascl.c */; };
-		ABC8234F135E761600F4D611 /* slasd0.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8221A135E761600F4D611 /* slasd0.c */; };
-		ABC82350135E761600F4D611 /* slasd1.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8221B135E761600F4D611 /* slasd1.c */; };
-		ABC82351135E761600F4D611 /* slasd2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8221C135E761600F4D611 /* slasd2.c */; };
-		ABC82352135E761600F4D611 /* slasd3.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8221D135E761600F4D611 /* slasd3.c */; };
-		ABC82353135E761600F4D611 /* slasd4.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8221E135E761600F4D611 /* slasd4.c */; };
-		ABC82354135E761600F4D611 /* slasd5.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8221F135E761600F4D611 /* slasd5.c */; };
-		ABC82355135E761600F4D611 /* slasd6.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82220135E761600F4D611 /* slasd6.c */; };
-		ABC82356135E761600F4D611 /* slasd7.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82221135E761600F4D611 /* slasd7.c */; };
-		ABC82357135E761600F4D611 /* slasd8.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82222135E761600F4D611 /* slasd8.c */; };
-		ABC82358135E761600F4D611 /* slasda.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82223135E761600F4D611 /* slasda.c */; };
-		ABC82359135E761600F4D611 /* slasdq.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82224135E761600F4D611 /* slasdq.c */; };
-		ABC8235A135E761600F4D611 /* slasdt.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82225135E761600F4D611 /* slasdt.c */; };
-		ABC8235B135E761600F4D611 /* slaset.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82226135E761600F4D611 /* slaset.c */; };
-		ABC8235C135E761600F4D611 /* slasq1.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82227135E761600F4D611 /* slasq1.c */; };
-		ABC8235D135E761600F4D611 /* slasq2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82228135E761600F4D611 /* slasq2.c */; };
-		ABC8235E135E761600F4D611 /* slasq3.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82229135E761600F4D611 /* slasq3.c */; };
-		ABC8235F135E761600F4D611 /* slasq4.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8222A135E761600F4D611 /* slasq4.c */; };
-		ABC82360135E761600F4D611 /* slasq5.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8222B135E761600F4D611 /* slasq5.c */; };
-		ABC82361135E761600F4D611 /* slasq6.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8222C135E761600F4D611 /* slasq6.c */; };
-		ABC82362135E761600F4D611 /* slasr_custom.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8222D135E761600F4D611 /* slasr_custom.c */; };
-		ABC82363135E761600F4D611 /* slasrt.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8222E135E761600F4D611 /* slasrt.c */; };
-		ABC82364135E761600F4D611 /* slassq.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8222F135E761600F4D611 /* slassq.c */; };
-		ABC82365135E761600F4D611 /* slasv2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82230135E761600F4D611 /* slasv2.c */; };
-		ABC82366135E761600F4D611 /* slaswp.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82231135E761600F4D611 /* slaswp.c */; };
-		ABC82367135E761600F4D611 /* slatrd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82232135E761600F4D611 /* slatrd.c */; };
-		ABC82368135E761600F4D611 /* slauu2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82233135E761600F4D611 /* slauu2.c */; };
-		ABC82369135E761600F4D611 /* slauum.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82234135E761600F4D611 /* slauum.c */; };
-		ABC8236A135E761600F4D611 /* snrm2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82235135E761600F4D611 /* snrm2.c */; };
-		ABC8236B135E761600F4D611 /* sorg2r.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82236135E761600F4D611 /* sorg2r.c */; };
-		ABC8236C135E761600F4D611 /* sorgbr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82237135E761600F4D611 /* sorgbr.c */; };
-		ABC8236D135E761600F4D611 /* sorgl2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82238135E761600F4D611 /* sorgl2.c */; };
-		ABC8236E135E761600F4D611 /* sorglq.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82239135E761600F4D611 /* sorglq.c */; };
-		ABC8236F135E761600F4D611 /* sorgqr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8223A135E761600F4D611 /* sorgqr.c */; };
-		ABC82370135E761600F4D611 /* sorm2l.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8223B135E761600F4D611 /* sorm2l.c */; };
-		ABC82371135E761600F4D611 /* sorm2r.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8223C135E761600F4D611 /* sorm2r.c */; };
-		ABC82372135E761600F4D611 /* sormbr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8223D135E761600F4D611 /* sormbr.c */; };
-		ABC82373135E761600F4D611 /* sorml2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8223E135E761600F4D611 /* sorml2.c */; };
-		ABC82374135E761600F4D611 /* sormlq.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8223F135E761600F4D611 /* sormlq.c */; };
-		ABC82375135E761600F4D611 /* sormql.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82240135E761600F4D611 /* sormql.c */; };
-		ABC82376135E761600F4D611 /* sormqr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82241135E761600F4D611 /* sormqr.c */; };
-		ABC82377135E761600F4D611 /* sormtr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82242135E761600F4D611 /* sormtr.c */; };
-		ABC82378135E761600F4D611 /* spotf2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82243135E761600F4D611 /* spotf2.c */; };
-		ABC82379135E761600F4D611 /* spotrf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82244135E761600F4D611 /* spotrf.c */; };
-		ABC8237A135E761600F4D611 /* spotri.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82245135E761600F4D611 /* spotri.c */; };
-		ABC8237B135E761600F4D611 /* spotrs.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82246135E761600F4D611 /* spotrs.c */; };
-		ABC8237C135E761600F4D611 /* srot.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82247135E761600F4D611 /* srot.c */; };
-		ABC8237D135E761600F4D611 /* sscal.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82248135E761600F4D611 /* sscal.c */; };
-		ABC8237E135E761600F4D611 /* sstebz.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82249135E761600F4D611 /* sstebz.c */; };
-		ABC8237F135E761600F4D611 /* sstein.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8224A135E761600F4D611 /* sstein.c */; };
-		ABC82380135E761600F4D611 /* sstemr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8224B135E761600F4D611 /* sstemr.c */; };
-		ABC82381135E761600F4D611 /* ssteqr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8224C135E761600F4D611 /* ssteqr.c */; };
-		ABC82382135E761600F4D611 /* ssterf.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8224D135E761600F4D611 /* ssterf.c */; };
-		ABC82383135E761600F4D611 /* sswap.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8224E135E761600F4D611 /* sswap.c */; };
-		ABC82384135E761600F4D611 /* ssyevr.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8224F135E761600F4D611 /* ssyevr.c */; };
-		ABC82385135E761600F4D611 /* ssymv.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82250135E761600F4D611 /* ssymv.c */; };
-		ABC82386135E761600F4D611 /* ssyr2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82251135E761600F4D611 /* ssyr2.c */; };
-		ABC82387135E761600F4D611 /* ssyr2k.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82252135E761600F4D611 /* ssyr2k.c */; };
-		ABC82388135E761600F4D611 /* ssyrk.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82253135E761600F4D611 /* ssyrk.c */; };
-		ABC82389135E761600F4D611 /* ssytd2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82254135E761600F4D611 /* ssytd2.c */; };
-		ABC8238A135E761600F4D611 /* ssytrd.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82255135E761600F4D611 /* ssytrd.c */; };
-		ABC8238B135E761600F4D611 /* strmm.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82256135E761600F4D611 /* strmm.c */; };
-		ABC8238C135E761600F4D611 /* strmv.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82257135E761600F4D611 /* strmv.c */; };
-		ABC8238D135E761600F4D611 /* strsm.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82258135E761600F4D611 /* strsm.c */; };
-		ABC8238E135E761600F4D611 /* strti2.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC82259135E761600F4D611 /* strti2.c */; };
-		ABC8238F135E761600F4D611 /* strtri.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8225A135E761600F4D611 /* strtri.c */; };
-		ABC82390135E761600F4D611 /* strtrs.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8225B135E761600F4D611 /* strtrs.c */; };
-		ABC82391135E761600F4D611 /* xerbla.c in Sources */ = {isa = PBXBuildFile; fileRef = ABC8225C135E761600F4D611 /* xerbla.c */; };
-		ABC82392135E761600F4D611 /* f2c.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC8225E135E761600F4D611 /* f2c.h */; };
-		ABC82393135E761600F4D611 /* cblas.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC8225F135E761600F4D611 /* cblas.h */; };
-		ABC82394135E761600F4D611 /* clapack.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC82260135E761600F4D611 /* clapack.h */; };
 		ABC823CE135E76BF00F4D611 /* alloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABC823AE135E76BF00F4D611 /* alloc.cpp */; };
 		ABC823CF135E76BF00F4D611 /* arithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABC823AF135E76BF00F4D611 /* arithm.cpp */; };
 		ABC823D0135E76BF00F4D611 /* array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABC823B0135E76BF00F4D611 /* array.cpp */; };
@@ -776,6 +462,13 @@
 		ABC8288D135E890800F4D611 /* precomp.hpp in Headers */ = {isa = PBXBuildFile; fileRef = ABC827A6135E846700F4D611 /* precomp.hpp */; };
 		ABC8288E135E890800F4D611 /* selfsimilarity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABC827A4135E846700F4D611 /* selfsimilarity.cpp */; };
 		ABC8288F135E890900F4D611 /* spinimages.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABC827A5135E846700F4D611 /* spinimages.cpp */; };
+		ABD38E33138F666F00CD2681 /* orb_pattern.hpp in Headers */ = {isa = PBXBuildFile; fileRef = ABD38E32138F666F00CD2681 /* orb_pattern.hpp */; };
+		ABD38E35138F67B100CD2681 /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD38E34138F67B100CD2681 /* pngconf.h */; };
+		ABD38E37138F680700CD2681 /* jconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD38E36138F680700CD2681 /* jconfig.h */; };
+		ABD38E39138F683B00CD2681 /* jmorecfg.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD38E38138F683B00CD2681 /* jmorecfg.h */; };
+		ABD38E3B138F684C00CD2681 /* jpeglib.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD38E3A138F684C00CD2681 /* jpeglib.h */; };
+		ABD38E3F138F688A00CD2681 /* zconf.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD38E3D138F688A00CD2681 /* zconf.h */; };
+		ABD38E40138F688A00CD2681 /* zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD38E3E138F688A00CD2681 /* zlib.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -785,13 +478,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = ABC81FEC135E743800F4D611;
 			remoteInfo = zlib;
-		};
-		ABC823A7135E768500F4D611 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ABC82127135E760300F4D611;
-			remoteInfo = opencv_lapack;
 		};
 		ABC82407135E77AA00F4D611 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1136,13 +822,6 @@
 			remoteGlobalIDString = ABC827D4135E851500F4D611;
 			remoteInfo = opencv_haartraining_engine;
 		};
-		ABC828B5135E899300F4D611 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ABC82127135E760300F4D611;
-			remoteInfo = opencv_lapack;
-		};
 		ABC828B7135E899300F4D611 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
@@ -1193,8 +872,6 @@
 		ABC8200B135E74B800F4D611 /* inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inftrees.h; path = "../opencv-svn/opencv/3rdparty/zlib/inftrees.h"; sourceTree = SOURCE_ROOT; };
 		ABC8200C135E74B800F4D611 /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trees.h; path = "../opencv-svn/opencv/3rdparty/zlib/trees.h"; sourceTree = SOURCE_ROOT; };
 		ABC8200D135E74B800F4D611 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zutil.h; path = "../opencv-svn/opencv/3rdparty/zlib/zutil.h"; sourceTree = SOURCE_ROOT; };
-		ABC8200E135E74B800F4D611 /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zlib.h; path = "../opencv-svn/opencv/3rdparty/include/zlib.h"; sourceTree = SOURCE_ROOT; };
-		ABC8200F135E74B800F4D611 /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zconf.h; path = "../opencv-svn/opencv/3rdparty/include/zconf.h"; sourceTree = SOURCE_ROOT; };
 		ABC82068135E74F000F4D611 /* liblibjpeg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibjpeg.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC82072135E752100F4D611 /* jcapimin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jcapimin.c; path = "../opencv-svn/opencv/3rdparty/libjpeg/jcapimin.c"; sourceTree = SOURCE_ROOT; };
 		ABC82073135E752100F4D611 /* jcapistd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jcapistd.c; path = "../opencv-svn/opencv/3rdparty/libjpeg/jcapistd.c"; sourceTree = SOURCE_ROOT; };
@@ -1252,9 +929,6 @@
 		ABC820A8135E752100F4D611 /* jpegint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jpegint.h; path = "../opencv-svn/opencv/3rdparty/libjpeg/jpegint.h"; sourceTree = SOURCE_ROOT; };
 		ABC820A9135E752100F4D611 /* jversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jversion.h; path = "../opencv-svn/opencv/3rdparty/libjpeg/jversion.h"; sourceTree = SOURCE_ROOT; };
 		ABC820AA135E752100F4D611 /* transupp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = transupp.h; path = "../opencv-svn/opencv/3rdparty/libjpeg/transupp.h"; sourceTree = SOURCE_ROOT; };
-		ABC820AB135E752100F4D611 /* jconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jconfig.h; path = "../opencv-svn/opencv/3rdparty/include/jconfig.h"; sourceTree = SOURCE_ROOT; };
-		ABC820AC135E752100F4D611 /* jmorecfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jmorecfg.h; path = "../opencv-svn/opencv/3rdparty/include/jmorecfg.h"; sourceTree = SOURCE_ROOT; };
-		ABC820AD135E752100F4D611 /* jpeglib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jpeglib.h; path = "../opencv-svn/opencv/3rdparty/include/jpeglib.h"; sourceTree = SOURCE_ROOT; };
 		ABC820F0135E754400F4D611 /* liblibpng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibpng.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC820F5135E755200F4D611 /* png.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = png.c; path = "../opencv-svn/opencv/3rdparty/libpng/png.c"; sourceTree = SOURCE_ROOT; };
 		ABC820F6135E755200F4D611 /* pngerror.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngerror.c; path = "../opencv-svn/opencv/3rdparty/libpng/pngerror.c"; sourceTree = SOURCE_ROOT; };
@@ -1274,314 +948,6 @@
 		ABC82104135E755200F4D611 /* pngwutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngwutil.c; path = "../opencv-svn/opencv/3rdparty/libpng/pngwutil.c"; sourceTree = SOURCE_ROOT; };
 		ABC82106135E755200F4D611 /* png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = png.h; path = "../opencv-svn/opencv/3rdparty/libpng/png.h"; sourceTree = SOURCE_ROOT; };
 		ABC82107135E755200F4D611 /* pngpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pngpriv.h; path = "../opencv-svn/opencv/3rdparty/libpng/pngpriv.h"; sourceTree = SOURCE_ROOT; };
-		ABC82128135E760300F4D611 /* libopencv_lapack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopencv_lapack.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABC8212D135E761600F4D611 /* dasum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dasum.c; path = "../opencv-svn/opencv/3rdparty/lapack/dasum.c"; sourceTree = SOURCE_ROOT; };
-		ABC8212E135E761600F4D611 /* daxpy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = daxpy.c; path = "../opencv-svn/opencv/3rdparty/lapack/daxpy.c"; sourceTree = SOURCE_ROOT; };
-		ABC8212F135E761600F4D611 /* dbdsdc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dbdsdc.c; path = "../opencv-svn/opencv/3rdparty/lapack/dbdsdc.c"; sourceTree = SOURCE_ROOT; };
-		ABC82130135E761600F4D611 /* dbdsqr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dbdsqr.c; path = "../opencv-svn/opencv/3rdparty/lapack/dbdsqr.c"; sourceTree = SOURCE_ROOT; };
-		ABC82131135E761600F4D611 /* dcopy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dcopy.c; path = "../opencv-svn/opencv/3rdparty/lapack/dcopy.c"; sourceTree = SOURCE_ROOT; };
-		ABC82132135E761600F4D611 /* ddot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ddot.c; path = "../opencv-svn/opencv/3rdparty/lapack/ddot.c"; sourceTree = SOURCE_ROOT; };
-		ABC82133135E761600F4D611 /* dgebd2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dgebd2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dgebd2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82134135E761600F4D611 /* dgebrd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dgebrd.c; path = "../opencv-svn/opencv/3rdparty/lapack/dgebrd.c"; sourceTree = SOURCE_ROOT; };
-		ABC82135135E761600F4D611 /* dgelq2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dgelq2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dgelq2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82136135E761600F4D611 /* dgelqf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dgelqf.c; path = "../opencv-svn/opencv/3rdparty/lapack/dgelqf.c"; sourceTree = SOURCE_ROOT; };
-		ABC82137135E761600F4D611 /* dgels.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dgels.c; path = "../opencv-svn/opencv/3rdparty/lapack/dgels.c"; sourceTree = SOURCE_ROOT; };
-		ABC82138135E761600F4D611 /* dgelsd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dgelsd.c; path = "../opencv-svn/opencv/3rdparty/lapack/dgelsd.c"; sourceTree = SOURCE_ROOT; };
-		ABC82139135E761600F4D611 /* dgemm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dgemm.c; path = "../opencv-svn/opencv/3rdparty/lapack/dgemm.c"; sourceTree = SOURCE_ROOT; };
-		ABC8213A135E761600F4D611 /* dgemv_custom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dgemv_custom.c; path = "../opencv-svn/opencv/3rdparty/lapack/dgemv_custom.c"; sourceTree = SOURCE_ROOT; };
-		ABC8213B135E761600F4D611 /* dgeqr2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dgeqr2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dgeqr2.c"; sourceTree = SOURCE_ROOT; };
-		ABC8213C135E761600F4D611 /* dgeqrf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dgeqrf.c; path = "../opencv-svn/opencv/3rdparty/lapack/dgeqrf.c"; sourceTree = SOURCE_ROOT; };
-		ABC8213D135E761600F4D611 /* dger_custom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dger_custom.c; path = "../opencv-svn/opencv/3rdparty/lapack/dger_custom.c"; sourceTree = SOURCE_ROOT; };
-		ABC8213E135E761600F4D611 /* dgesdd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dgesdd.c; path = "../opencv-svn/opencv/3rdparty/lapack/dgesdd.c"; sourceTree = SOURCE_ROOT; };
-		ABC8213F135E761600F4D611 /* dgesv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dgesv.c; path = "../opencv-svn/opencv/3rdparty/lapack/dgesv.c"; sourceTree = SOURCE_ROOT; };
-		ABC82140135E761600F4D611 /* dgetf2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dgetf2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dgetf2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82141135E761600F4D611 /* dgetrf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dgetrf.c; path = "../opencv-svn/opencv/3rdparty/lapack/dgetrf.c"; sourceTree = SOURCE_ROOT; };
-		ABC82142135E761600F4D611 /* dgetri.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dgetri.c; path = "../opencv-svn/opencv/3rdparty/lapack/dgetri.c"; sourceTree = SOURCE_ROOT; };
-		ABC82143135E761600F4D611 /* dgetrs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dgetrs.c; path = "../opencv-svn/opencv/3rdparty/lapack/dgetrs.c"; sourceTree = SOURCE_ROOT; };
-		ABC82144135E761600F4D611 /* dlabad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlabad.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlabad.c"; sourceTree = SOURCE_ROOT; };
-		ABC82145135E761600F4D611 /* dlabrd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlabrd.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlabrd.c"; sourceTree = SOURCE_ROOT; };
-		ABC82146135E761600F4D611 /* dlacpy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlacpy.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlacpy.c"; sourceTree = SOURCE_ROOT; };
-		ABC82147135E761600F4D611 /* dlae2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlae2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlae2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82148135E761600F4D611 /* dlaebz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaebz.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaebz.c"; sourceTree = SOURCE_ROOT; };
-		ABC82149135E761600F4D611 /* dlaed0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaed0.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaed0.c"; sourceTree = SOURCE_ROOT; };
-		ABC8214A135E761600F4D611 /* dlaed1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaed1.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaed1.c"; sourceTree = SOURCE_ROOT; };
-		ABC8214B135E761600F4D611 /* dlaed2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaed2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaed2.c"; sourceTree = SOURCE_ROOT; };
-		ABC8214C135E761600F4D611 /* dlaed3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaed3.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaed3.c"; sourceTree = SOURCE_ROOT; };
-		ABC8214D135E761600F4D611 /* dlaed4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaed4.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaed4.c"; sourceTree = SOURCE_ROOT; };
-		ABC8214E135E761600F4D611 /* dlaed5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaed5.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaed5.c"; sourceTree = SOURCE_ROOT; };
-		ABC8214F135E761600F4D611 /* dlaed6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaed6.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaed6.c"; sourceTree = SOURCE_ROOT; };
-		ABC82150135E761600F4D611 /* dlaed7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaed7.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaed7.c"; sourceTree = SOURCE_ROOT; };
-		ABC82151135E761600F4D611 /* dlaed8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaed8.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaed8.c"; sourceTree = SOURCE_ROOT; };
-		ABC82152135E761600F4D611 /* dlaed9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaed9.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaed9.c"; sourceTree = SOURCE_ROOT; };
-		ABC82153135E761600F4D611 /* dlaeda.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaeda.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaeda.c"; sourceTree = SOURCE_ROOT; };
-		ABC82154135E761600F4D611 /* dlaev2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaev2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaev2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82155135E761600F4D611 /* dlagtf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlagtf.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlagtf.c"; sourceTree = SOURCE_ROOT; };
-		ABC82156135E761600F4D611 /* dlagts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlagts.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlagts.c"; sourceTree = SOURCE_ROOT; };
-		ABC82157135E761600F4D611 /* dlaisnan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaisnan.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaisnan.c"; sourceTree = SOURCE_ROOT; };
-		ABC82158135E761600F4D611 /* dlals0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlals0.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlals0.c"; sourceTree = SOURCE_ROOT; };
-		ABC82159135E761600F4D611 /* dlalsa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlalsa.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlalsa.c"; sourceTree = SOURCE_ROOT; };
-		ABC8215A135E761600F4D611 /* dlalsd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlalsd.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlalsd.c"; sourceTree = SOURCE_ROOT; };
-		ABC8215B135E761600F4D611 /* dlamch_custom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlamch_custom.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlamch_custom.c"; sourceTree = SOURCE_ROOT; };
-		ABC8215C135E761600F4D611 /* dlamrg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlamrg.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlamrg.c"; sourceTree = SOURCE_ROOT; };
-		ABC8215D135E761600F4D611 /* dlaneg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaneg.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaneg.c"; sourceTree = SOURCE_ROOT; };
-		ABC8215E135E761600F4D611 /* dlange.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlange.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlange.c"; sourceTree = SOURCE_ROOT; };
-		ABC8215F135E761600F4D611 /* dlanst.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlanst.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlanst.c"; sourceTree = SOURCE_ROOT; };
-		ABC82160135E761600F4D611 /* dlansy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlansy.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlansy.c"; sourceTree = SOURCE_ROOT; };
-		ABC82161135E761600F4D611 /* dlapy2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlapy2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlapy2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82162135E761600F4D611 /* dlar1v.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlar1v.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlar1v.c"; sourceTree = SOURCE_ROOT; };
-		ABC82163135E761600F4D611 /* dlarf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlarf.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlarf.c"; sourceTree = SOURCE_ROOT; };
-		ABC82164135E761600F4D611 /* dlarfb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlarfb.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlarfb.c"; sourceTree = SOURCE_ROOT; };
-		ABC82165135E761600F4D611 /* dlarfg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlarfg.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlarfg.c"; sourceTree = SOURCE_ROOT; };
-		ABC82166135E761600F4D611 /* dlarfp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlarfp.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlarfp.c"; sourceTree = SOURCE_ROOT; };
-		ABC82167135E761600F4D611 /* dlarft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlarft.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlarft.c"; sourceTree = SOURCE_ROOT; };
-		ABC82168135E761600F4D611 /* dlarnv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlarnv.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlarnv.c"; sourceTree = SOURCE_ROOT; };
-		ABC82169135E761600F4D611 /* dlarra.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlarra.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlarra.c"; sourceTree = SOURCE_ROOT; };
-		ABC8216A135E761600F4D611 /* dlarrb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlarrb.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlarrb.c"; sourceTree = SOURCE_ROOT; };
-		ABC8216B135E761600F4D611 /* dlarrc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlarrc.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlarrc.c"; sourceTree = SOURCE_ROOT; };
-		ABC8216C135E761600F4D611 /* dlarrd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlarrd.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlarrd.c"; sourceTree = SOURCE_ROOT; };
-		ABC8216D135E761600F4D611 /* dlarre.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlarre.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlarre.c"; sourceTree = SOURCE_ROOT; };
-		ABC8216E135E761600F4D611 /* dlarrf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlarrf.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlarrf.c"; sourceTree = SOURCE_ROOT; };
-		ABC8216F135E761600F4D611 /* dlarrj.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlarrj.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlarrj.c"; sourceTree = SOURCE_ROOT; };
-		ABC82170135E761600F4D611 /* dlarrk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlarrk.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlarrk.c"; sourceTree = SOURCE_ROOT; };
-		ABC82171135E761600F4D611 /* dlarrr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlarrr.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlarrr.c"; sourceTree = SOURCE_ROOT; };
-		ABC82172135E761600F4D611 /* dlarrv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlarrv.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlarrv.c"; sourceTree = SOURCE_ROOT; };
-		ABC82173135E761600F4D611 /* dlartg_custom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlartg_custom.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlartg_custom.c"; sourceTree = SOURCE_ROOT; };
-		ABC82174135E761600F4D611 /* dlaruv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaruv.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaruv.c"; sourceTree = SOURCE_ROOT; };
-		ABC82175135E761600F4D611 /* dlas2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlas2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlas2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82176135E761600F4D611 /* dlascl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlascl.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlascl.c"; sourceTree = SOURCE_ROOT; };
-		ABC82177135E761600F4D611 /* dlasd0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasd0.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasd0.c"; sourceTree = SOURCE_ROOT; };
-		ABC82178135E761600F4D611 /* dlasd1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasd1.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasd1.c"; sourceTree = SOURCE_ROOT; };
-		ABC82179135E761600F4D611 /* dlasd2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasd2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasd2.c"; sourceTree = SOURCE_ROOT; };
-		ABC8217A135E761600F4D611 /* dlasd3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasd3.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasd3.c"; sourceTree = SOURCE_ROOT; };
-		ABC8217B135E761600F4D611 /* dlasd4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasd4.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasd4.c"; sourceTree = SOURCE_ROOT; };
-		ABC8217C135E761600F4D611 /* dlasd5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasd5.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasd5.c"; sourceTree = SOURCE_ROOT; };
-		ABC8217D135E761600F4D611 /* dlasd6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasd6.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasd6.c"; sourceTree = SOURCE_ROOT; };
-		ABC8217E135E761600F4D611 /* dlasd7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasd7.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasd7.c"; sourceTree = SOURCE_ROOT; };
-		ABC8217F135E761600F4D611 /* dlasd8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasd8.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasd8.c"; sourceTree = SOURCE_ROOT; };
-		ABC82180135E761600F4D611 /* dlasda.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasda.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasda.c"; sourceTree = SOURCE_ROOT; };
-		ABC82181135E761600F4D611 /* dlasdq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasdq.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasdq.c"; sourceTree = SOURCE_ROOT; };
-		ABC82182135E761600F4D611 /* dlasdt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasdt.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasdt.c"; sourceTree = SOURCE_ROOT; };
-		ABC82183135E761600F4D611 /* dlaset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaset.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaset.c"; sourceTree = SOURCE_ROOT; };
-		ABC82184135E761600F4D611 /* dlasq1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasq1.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasq1.c"; sourceTree = SOURCE_ROOT; };
-		ABC82185135E761600F4D611 /* dlasq2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasq2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasq2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82186135E761600F4D611 /* dlasq3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasq3.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasq3.c"; sourceTree = SOURCE_ROOT; };
-		ABC82187135E761600F4D611 /* dlasq4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasq4.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasq4.c"; sourceTree = SOURCE_ROOT; };
-		ABC82188135E761600F4D611 /* dlasq5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasq5.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasq5.c"; sourceTree = SOURCE_ROOT; };
-		ABC82189135E761600F4D611 /* dlasq6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasq6.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasq6.c"; sourceTree = SOURCE_ROOT; };
-		ABC8218A135E761600F4D611 /* dlasr_custom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasr_custom.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasr_custom.c"; sourceTree = SOURCE_ROOT; };
-		ABC8218B135E761600F4D611 /* dlasrt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasrt.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasrt.c"; sourceTree = SOURCE_ROOT; };
-		ABC8218C135E761600F4D611 /* dlassq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlassq.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlassq.c"; sourceTree = SOURCE_ROOT; };
-		ABC8218D135E761600F4D611 /* dlasv2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasv2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasv2.c"; sourceTree = SOURCE_ROOT; };
-		ABC8218E135E761600F4D611 /* dlaswp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlaswp.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlaswp.c"; sourceTree = SOURCE_ROOT; };
-		ABC8218F135E761600F4D611 /* dlasyf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlasyf.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlasyf.c"; sourceTree = SOURCE_ROOT; };
-		ABC82190135E761600F4D611 /* dlatrd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlatrd.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlatrd.c"; sourceTree = SOURCE_ROOT; };
-		ABC82191135E761600F4D611 /* dlauu2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlauu2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlauu2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82192135E761600F4D611 /* dlauum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dlauum.c; path = "../opencv-svn/opencv/3rdparty/lapack/dlauum.c"; sourceTree = SOURCE_ROOT; };
-		ABC82193135E761600F4D611 /* dnrm2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dnrm2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dnrm2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82194135E761600F4D611 /* dorg2r.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dorg2r.c; path = "../opencv-svn/opencv/3rdparty/lapack/dorg2r.c"; sourceTree = SOURCE_ROOT; };
-		ABC82195135E761600F4D611 /* dorgbr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dorgbr.c; path = "../opencv-svn/opencv/3rdparty/lapack/dorgbr.c"; sourceTree = SOURCE_ROOT; };
-		ABC82196135E761600F4D611 /* dorgl2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dorgl2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dorgl2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82197135E761600F4D611 /* dorglq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dorglq.c; path = "../opencv-svn/opencv/3rdparty/lapack/dorglq.c"; sourceTree = SOURCE_ROOT; };
-		ABC82198135E761600F4D611 /* dorgqr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dorgqr.c; path = "../opencv-svn/opencv/3rdparty/lapack/dorgqr.c"; sourceTree = SOURCE_ROOT; };
-		ABC82199135E761600F4D611 /* dorm2l.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dorm2l.c; path = "../opencv-svn/opencv/3rdparty/lapack/dorm2l.c"; sourceTree = SOURCE_ROOT; };
-		ABC8219A135E761600F4D611 /* dorm2r.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dorm2r.c; path = "../opencv-svn/opencv/3rdparty/lapack/dorm2r.c"; sourceTree = SOURCE_ROOT; };
-		ABC8219B135E761600F4D611 /* dormbr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dormbr.c; path = "../opencv-svn/opencv/3rdparty/lapack/dormbr.c"; sourceTree = SOURCE_ROOT; };
-		ABC8219C135E761600F4D611 /* dorml2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dorml2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dorml2.c"; sourceTree = SOURCE_ROOT; };
-		ABC8219D135E761600F4D611 /* dormlq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dormlq.c; path = "../opencv-svn/opencv/3rdparty/lapack/dormlq.c"; sourceTree = SOURCE_ROOT; };
-		ABC8219E135E761600F4D611 /* dormql.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dormql.c; path = "../opencv-svn/opencv/3rdparty/lapack/dormql.c"; sourceTree = SOURCE_ROOT; };
-		ABC8219F135E761600F4D611 /* dormqr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dormqr.c; path = "../opencv-svn/opencv/3rdparty/lapack/dormqr.c"; sourceTree = SOURCE_ROOT; };
-		ABC821A0135E761600F4D611 /* dormtr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dormtr.c; path = "../opencv-svn/opencv/3rdparty/lapack/dormtr.c"; sourceTree = SOURCE_ROOT; };
-		ABC821A1135E761600F4D611 /* dpotf2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dpotf2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dpotf2.c"; sourceTree = SOURCE_ROOT; };
-		ABC821A2135E761600F4D611 /* dpotrf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dpotrf.c; path = "../opencv-svn/opencv/3rdparty/lapack/dpotrf.c"; sourceTree = SOURCE_ROOT; };
-		ABC821A3135E761600F4D611 /* dpotri.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dpotri.c; path = "../opencv-svn/opencv/3rdparty/lapack/dpotri.c"; sourceTree = SOURCE_ROOT; };
-		ABC821A4135E761600F4D611 /* dpotrs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dpotrs.c; path = "../opencv-svn/opencv/3rdparty/lapack/dpotrs.c"; sourceTree = SOURCE_ROOT; };
-		ABC821A5135E761600F4D611 /* drot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = drot.c; path = "../opencv-svn/opencv/3rdparty/lapack/drot.c"; sourceTree = SOURCE_ROOT; };
-		ABC821A6135E761600F4D611 /* dscal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dscal.c; path = "../opencv-svn/opencv/3rdparty/lapack/dscal.c"; sourceTree = SOURCE_ROOT; };
-		ABC821A7135E761600F4D611 /* dstebz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dstebz.c; path = "../opencv-svn/opencv/3rdparty/lapack/dstebz.c"; sourceTree = SOURCE_ROOT; };
-		ABC821A8135E761600F4D611 /* dstein.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dstein.c; path = "../opencv-svn/opencv/3rdparty/lapack/dstein.c"; sourceTree = SOURCE_ROOT; };
-		ABC821A9135E761600F4D611 /* dstemr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dstemr.c; path = "../opencv-svn/opencv/3rdparty/lapack/dstemr.c"; sourceTree = SOURCE_ROOT; };
-		ABC821AA135E761600F4D611 /* dsteqr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dsteqr.c; path = "../opencv-svn/opencv/3rdparty/lapack/dsteqr.c"; sourceTree = SOURCE_ROOT; };
-		ABC821AB135E761600F4D611 /* dsterf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dsterf.c; path = "../opencv-svn/opencv/3rdparty/lapack/dsterf.c"; sourceTree = SOURCE_ROOT; };
-		ABC821AC135E761600F4D611 /* dswap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dswap.c; path = "../opencv-svn/opencv/3rdparty/lapack/dswap.c"; sourceTree = SOURCE_ROOT; };
-		ABC821AD135E761600F4D611 /* dsyevr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dsyevr.c; path = "../opencv-svn/opencv/3rdparty/lapack/dsyevr.c"; sourceTree = SOURCE_ROOT; };
-		ABC821AE135E761600F4D611 /* dsymv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dsymv.c; path = "../opencv-svn/opencv/3rdparty/lapack/dsymv.c"; sourceTree = SOURCE_ROOT; };
-		ABC821AF135E761600F4D611 /* dsyr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dsyr.c; path = "../opencv-svn/opencv/3rdparty/lapack/dsyr.c"; sourceTree = SOURCE_ROOT; };
-		ABC821B0135E761600F4D611 /* dsyr2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dsyr2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dsyr2.c"; sourceTree = SOURCE_ROOT; };
-		ABC821B1135E761600F4D611 /* dsyr2k.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dsyr2k.c; path = "../opencv-svn/opencv/3rdparty/lapack/dsyr2k.c"; sourceTree = SOURCE_ROOT; };
-		ABC821B2135E761600F4D611 /* dsyrk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dsyrk.c; path = "../opencv-svn/opencv/3rdparty/lapack/dsyrk.c"; sourceTree = SOURCE_ROOT; };
-		ABC821B3135E761600F4D611 /* dsytd2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dsytd2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dsytd2.c"; sourceTree = SOURCE_ROOT; };
-		ABC821B4135E761600F4D611 /* dsytf2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dsytf2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dsytf2.c"; sourceTree = SOURCE_ROOT; };
-		ABC821B5135E761600F4D611 /* dsytrd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dsytrd.c; path = "../opencv-svn/opencv/3rdparty/lapack/dsytrd.c"; sourceTree = SOURCE_ROOT; };
-		ABC821B6135E761600F4D611 /* dsytrf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dsytrf.c; path = "../opencv-svn/opencv/3rdparty/lapack/dsytrf.c"; sourceTree = SOURCE_ROOT; };
-		ABC821B7135E761600F4D611 /* dsytri.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dsytri.c; path = "../opencv-svn/opencv/3rdparty/lapack/dsytri.c"; sourceTree = SOURCE_ROOT; };
-		ABC821B8135E761600F4D611 /* dsytrs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dsytrs.c; path = "../opencv-svn/opencv/3rdparty/lapack/dsytrs.c"; sourceTree = SOURCE_ROOT; };
-		ABC821B9135E761600F4D611 /* dtrmm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dtrmm.c; path = "../opencv-svn/opencv/3rdparty/lapack/dtrmm.c"; sourceTree = SOURCE_ROOT; };
-		ABC821BA135E761600F4D611 /* dtrmv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dtrmv.c; path = "../opencv-svn/opencv/3rdparty/lapack/dtrmv.c"; sourceTree = SOURCE_ROOT; };
-		ABC821BB135E761600F4D611 /* dtrsm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dtrsm.c; path = "../opencv-svn/opencv/3rdparty/lapack/dtrsm.c"; sourceTree = SOURCE_ROOT; };
-		ABC821BC135E761600F4D611 /* dtrti2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dtrti2.c; path = "../opencv-svn/opencv/3rdparty/lapack/dtrti2.c"; sourceTree = SOURCE_ROOT; };
-		ABC821BD135E761600F4D611 /* dtrtri.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dtrtri.c; path = "../opencv-svn/opencv/3rdparty/lapack/dtrtri.c"; sourceTree = SOURCE_ROOT; };
-		ABC821BE135E761600F4D611 /* dtrtrs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dtrtrs.c; path = "../opencv-svn/opencv/3rdparty/lapack/dtrtrs.c"; sourceTree = SOURCE_ROOT; };
-		ABC821BF135E761600F4D611 /* f77_aloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = f77_aloc.c; path = "../opencv-svn/opencv/3rdparty/lapack/f77_aloc.c"; sourceTree = SOURCE_ROOT; };
-		ABC821C0135E761600F4D611 /* idamax.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = idamax.c; path = "../opencv-svn/opencv/3rdparty/lapack/idamax.c"; sourceTree = SOURCE_ROOT; };
-		ABC821C1135E761600F4D611 /* ieeeck.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ieeeck.c; path = "../opencv-svn/opencv/3rdparty/lapack/ieeeck.c"; sourceTree = SOURCE_ROOT; };
-		ABC821C2135E761600F4D611 /* iladlc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = iladlc.c; path = "../opencv-svn/opencv/3rdparty/lapack/iladlc.c"; sourceTree = SOURCE_ROOT; };
-		ABC821C3135E761600F4D611 /* iladlr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = iladlr.c; path = "../opencv-svn/opencv/3rdparty/lapack/iladlr.c"; sourceTree = SOURCE_ROOT; };
-		ABC821C4135E761600F4D611 /* ilaenv_custom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ilaenv_custom.c; path = "../opencv-svn/opencv/3rdparty/lapack/ilaenv_custom.c"; sourceTree = SOURCE_ROOT; };
-		ABC821C5135E761600F4D611 /* ilaslc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ilaslc.c; path = "../opencv-svn/opencv/3rdparty/lapack/ilaslc.c"; sourceTree = SOURCE_ROOT; };
-		ABC821C6135E761600F4D611 /* ilaslr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ilaslr.c; path = "../opencv-svn/opencv/3rdparty/lapack/ilaslr.c"; sourceTree = SOURCE_ROOT; };
-		ABC821C7135E761600F4D611 /* iparmq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = iparmq.c; path = "../opencv-svn/opencv/3rdparty/lapack/iparmq.c"; sourceTree = SOURCE_ROOT; };
-		ABC821C8135E761600F4D611 /* isamax.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = isamax.c; path = "../opencv-svn/opencv/3rdparty/lapack/isamax.c"; sourceTree = SOURCE_ROOT; };
-		ABC821C9135E761600F4D611 /* pow_di.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pow_di.c; path = "../opencv-svn/opencv/3rdparty/lapack/pow_di.c"; sourceTree = SOURCE_ROOT; };
-		ABC821CA135E761600F4D611 /* pow_ii.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pow_ii.c; path = "../opencv-svn/opencv/3rdparty/lapack/pow_ii.c"; sourceTree = SOURCE_ROOT; };
-		ABC821CB135E761600F4D611 /* pow_ri.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pow_ri.c; path = "../opencv-svn/opencv/3rdparty/lapack/pow_ri.c"; sourceTree = SOURCE_ROOT; };
-		ABC821CC135E761600F4D611 /* precomp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = precomp.c; path = "../opencv-svn/opencv/3rdparty/lapack/precomp.c"; sourceTree = SOURCE_ROOT; };
-		ABC821CD135E761600F4D611 /* s_cat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = s_cat.c; path = "../opencv-svn/opencv/3rdparty/lapack/s_cat.c"; sourceTree = SOURCE_ROOT; };
-		ABC821CE135E761600F4D611 /* s_cmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = s_cmp.c; path = "../opencv-svn/opencv/3rdparty/lapack/s_cmp.c"; sourceTree = SOURCE_ROOT; };
-		ABC821CF135E761600F4D611 /* s_copy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = s_copy.c; path = "../opencv-svn/opencv/3rdparty/lapack/s_copy.c"; sourceTree = SOURCE_ROOT; };
-		ABC821D0135E761600F4D611 /* sasum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sasum.c; path = "../opencv-svn/opencv/3rdparty/lapack/sasum.c"; sourceTree = SOURCE_ROOT; };
-		ABC821D1135E761600F4D611 /* saxpy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = saxpy.c; path = "../opencv-svn/opencv/3rdparty/lapack/saxpy.c"; sourceTree = SOURCE_ROOT; };
-		ABC821D2135E761600F4D611 /* sbdsdc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sbdsdc.c; path = "../opencv-svn/opencv/3rdparty/lapack/sbdsdc.c"; sourceTree = SOURCE_ROOT; };
-		ABC821D3135E761600F4D611 /* sbdsqr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sbdsqr.c; path = "../opencv-svn/opencv/3rdparty/lapack/sbdsqr.c"; sourceTree = SOURCE_ROOT; };
-		ABC821D4135E761600F4D611 /* scopy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = scopy.c; path = "../opencv-svn/opencv/3rdparty/lapack/scopy.c"; sourceTree = SOURCE_ROOT; };
-		ABC821D5135E761600F4D611 /* sdot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sdot.c; path = "../opencv-svn/opencv/3rdparty/lapack/sdot.c"; sourceTree = SOURCE_ROOT; };
-		ABC821D6135E761600F4D611 /* sgebd2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgebd2.c; path = "../opencv-svn/opencv/3rdparty/lapack/sgebd2.c"; sourceTree = SOURCE_ROOT; };
-		ABC821D7135E761600F4D611 /* sgebrd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgebrd.c; path = "../opencv-svn/opencv/3rdparty/lapack/sgebrd.c"; sourceTree = SOURCE_ROOT; };
-		ABC821D8135E761600F4D611 /* sgelq2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgelq2.c; path = "../opencv-svn/opencv/3rdparty/lapack/sgelq2.c"; sourceTree = SOURCE_ROOT; };
-		ABC821D9135E761600F4D611 /* sgelqf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgelqf.c; path = "../opencv-svn/opencv/3rdparty/lapack/sgelqf.c"; sourceTree = SOURCE_ROOT; };
-		ABC821DA135E761600F4D611 /* sgels.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgels.c; path = "../opencv-svn/opencv/3rdparty/lapack/sgels.c"; sourceTree = SOURCE_ROOT; };
-		ABC821DB135E761600F4D611 /* sgelsd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgelsd.c; path = "../opencv-svn/opencv/3rdparty/lapack/sgelsd.c"; sourceTree = SOURCE_ROOT; };
-		ABC821DC135E761600F4D611 /* sgemm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgemm.c; path = "../opencv-svn/opencv/3rdparty/lapack/sgemm.c"; sourceTree = SOURCE_ROOT; };
-		ABC821DD135E761600F4D611 /* sgemv_custom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgemv_custom.c; path = "../opencv-svn/opencv/3rdparty/lapack/sgemv_custom.c"; sourceTree = SOURCE_ROOT; };
-		ABC821DE135E761600F4D611 /* sgeqr2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgeqr2.c; path = "../opencv-svn/opencv/3rdparty/lapack/sgeqr2.c"; sourceTree = SOURCE_ROOT; };
-		ABC821DF135E761600F4D611 /* sgeqrf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgeqrf.c; path = "../opencv-svn/opencv/3rdparty/lapack/sgeqrf.c"; sourceTree = SOURCE_ROOT; };
-		ABC821E0135E761600F4D611 /* sger_custom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sger_custom.c; path = "../opencv-svn/opencv/3rdparty/lapack/sger_custom.c"; sourceTree = SOURCE_ROOT; };
-		ABC821E1135E761600F4D611 /* sgesdd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgesdd.c; path = "../opencv-svn/opencv/3rdparty/lapack/sgesdd.c"; sourceTree = SOURCE_ROOT; };
-		ABC821E2135E761600F4D611 /* sgesv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgesv.c; path = "../opencv-svn/opencv/3rdparty/lapack/sgesv.c"; sourceTree = SOURCE_ROOT; };
-		ABC821E3135E761600F4D611 /* sgetf2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgetf2.c; path = "../opencv-svn/opencv/3rdparty/lapack/sgetf2.c"; sourceTree = SOURCE_ROOT; };
-		ABC821E4135E761600F4D611 /* sgetrf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgetrf.c; path = "../opencv-svn/opencv/3rdparty/lapack/sgetrf.c"; sourceTree = SOURCE_ROOT; };
-		ABC821E5135E761600F4D611 /* sgetri.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgetri.c; path = "../opencv-svn/opencv/3rdparty/lapack/sgetri.c"; sourceTree = SOURCE_ROOT; };
-		ABC821E6135E761600F4D611 /* sgetrs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sgetrs.c; path = "../opencv-svn/opencv/3rdparty/lapack/sgetrs.c"; sourceTree = SOURCE_ROOT; };
-		ABC821E7135E761600F4D611 /* slabad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slabad.c; path = "../opencv-svn/opencv/3rdparty/lapack/slabad.c"; sourceTree = SOURCE_ROOT; };
-		ABC821E8135E761600F4D611 /* slabrd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slabrd.c; path = "../opencv-svn/opencv/3rdparty/lapack/slabrd.c"; sourceTree = SOURCE_ROOT; };
-		ABC821E9135E761600F4D611 /* slacpy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slacpy.c; path = "../opencv-svn/opencv/3rdparty/lapack/slacpy.c"; sourceTree = SOURCE_ROOT; };
-		ABC821EA135E761600F4D611 /* slae2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slae2.c; path = "../opencv-svn/opencv/3rdparty/lapack/slae2.c"; sourceTree = SOURCE_ROOT; };
-		ABC821EB135E761600F4D611 /* slaebz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaebz.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaebz.c"; sourceTree = SOURCE_ROOT; };
-		ABC821EC135E761600F4D611 /* slaed0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaed0.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaed0.c"; sourceTree = SOURCE_ROOT; };
-		ABC821ED135E761600F4D611 /* slaed1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaed1.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaed1.c"; sourceTree = SOURCE_ROOT; };
-		ABC821EE135E761600F4D611 /* slaed2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaed2.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaed2.c"; sourceTree = SOURCE_ROOT; };
-		ABC821EF135E761600F4D611 /* slaed3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaed3.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaed3.c"; sourceTree = SOURCE_ROOT; };
-		ABC821F0135E761600F4D611 /* slaed4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaed4.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaed4.c"; sourceTree = SOURCE_ROOT; };
-		ABC821F1135E761600F4D611 /* slaed5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaed5.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaed5.c"; sourceTree = SOURCE_ROOT; };
-		ABC821F2135E761600F4D611 /* slaed6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaed6.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaed6.c"; sourceTree = SOURCE_ROOT; };
-		ABC821F3135E761600F4D611 /* slaed7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaed7.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaed7.c"; sourceTree = SOURCE_ROOT; };
-		ABC821F4135E761600F4D611 /* slaed8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaed8.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaed8.c"; sourceTree = SOURCE_ROOT; };
-		ABC821F5135E761600F4D611 /* slaed9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaed9.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaed9.c"; sourceTree = SOURCE_ROOT; };
-		ABC821F6135E761600F4D611 /* slaeda.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaeda.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaeda.c"; sourceTree = SOURCE_ROOT; };
-		ABC821F7135E761600F4D611 /* slaev2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaev2.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaev2.c"; sourceTree = SOURCE_ROOT; };
-		ABC821F8135E761600F4D611 /* slagtf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slagtf.c; path = "../opencv-svn/opencv/3rdparty/lapack/slagtf.c"; sourceTree = SOURCE_ROOT; };
-		ABC821F9135E761600F4D611 /* slagts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slagts.c; path = "../opencv-svn/opencv/3rdparty/lapack/slagts.c"; sourceTree = SOURCE_ROOT; };
-		ABC821FA135E761600F4D611 /* slaisnan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaisnan.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaisnan.c"; sourceTree = SOURCE_ROOT; };
-		ABC821FB135E761600F4D611 /* slals0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slals0.c; path = "../opencv-svn/opencv/3rdparty/lapack/slals0.c"; sourceTree = SOURCE_ROOT; };
-		ABC821FC135E761600F4D611 /* slalsa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slalsa.c; path = "../opencv-svn/opencv/3rdparty/lapack/slalsa.c"; sourceTree = SOURCE_ROOT; };
-		ABC821FD135E761600F4D611 /* slalsd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slalsd.c; path = "../opencv-svn/opencv/3rdparty/lapack/slalsd.c"; sourceTree = SOURCE_ROOT; };
-		ABC821FE135E761600F4D611 /* slamch_custom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slamch_custom.c; path = "../opencv-svn/opencv/3rdparty/lapack/slamch_custom.c"; sourceTree = SOURCE_ROOT; };
-		ABC821FF135E761600F4D611 /* slamrg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slamrg.c; path = "../opencv-svn/opencv/3rdparty/lapack/slamrg.c"; sourceTree = SOURCE_ROOT; };
-		ABC82200135E761600F4D611 /* slaneg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaneg.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaneg.c"; sourceTree = SOURCE_ROOT; };
-		ABC82201135E761600F4D611 /* slange.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slange.c; path = "../opencv-svn/opencv/3rdparty/lapack/slange.c"; sourceTree = SOURCE_ROOT; };
-		ABC82202135E761600F4D611 /* slanst.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slanst.c; path = "../opencv-svn/opencv/3rdparty/lapack/slanst.c"; sourceTree = SOURCE_ROOT; };
-		ABC82203135E761600F4D611 /* slansy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slansy.c; path = "../opencv-svn/opencv/3rdparty/lapack/slansy.c"; sourceTree = SOURCE_ROOT; };
-		ABC82204135E761600F4D611 /* slapy2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slapy2.c; path = "../opencv-svn/opencv/3rdparty/lapack/slapy2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82205135E761600F4D611 /* slar1v.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slar1v.c; path = "../opencv-svn/opencv/3rdparty/lapack/slar1v.c"; sourceTree = SOURCE_ROOT; };
-		ABC82206135E761600F4D611 /* slarf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slarf.c; path = "../opencv-svn/opencv/3rdparty/lapack/slarf.c"; sourceTree = SOURCE_ROOT; };
-		ABC82207135E761600F4D611 /* slarfb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slarfb.c; path = "../opencv-svn/opencv/3rdparty/lapack/slarfb.c"; sourceTree = SOURCE_ROOT; };
-		ABC82208135E761600F4D611 /* slarfg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slarfg.c; path = "../opencv-svn/opencv/3rdparty/lapack/slarfg.c"; sourceTree = SOURCE_ROOT; };
-		ABC82209135E761600F4D611 /* slarfp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slarfp.c; path = "../opencv-svn/opencv/3rdparty/lapack/slarfp.c"; sourceTree = SOURCE_ROOT; };
-		ABC8220A135E761600F4D611 /* slarft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slarft.c; path = "../opencv-svn/opencv/3rdparty/lapack/slarft.c"; sourceTree = SOURCE_ROOT; };
-		ABC8220B135E761600F4D611 /* slarnv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slarnv.c; path = "../opencv-svn/opencv/3rdparty/lapack/slarnv.c"; sourceTree = SOURCE_ROOT; };
-		ABC8220C135E761600F4D611 /* slarra.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slarra.c; path = "../opencv-svn/opencv/3rdparty/lapack/slarra.c"; sourceTree = SOURCE_ROOT; };
-		ABC8220D135E761600F4D611 /* slarrb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slarrb.c; path = "../opencv-svn/opencv/3rdparty/lapack/slarrb.c"; sourceTree = SOURCE_ROOT; };
-		ABC8220E135E761600F4D611 /* slarrc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slarrc.c; path = "../opencv-svn/opencv/3rdparty/lapack/slarrc.c"; sourceTree = SOURCE_ROOT; };
-		ABC8220F135E761600F4D611 /* slarrd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slarrd.c; path = "../opencv-svn/opencv/3rdparty/lapack/slarrd.c"; sourceTree = SOURCE_ROOT; };
-		ABC82210135E761600F4D611 /* slarre.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slarre.c; path = "../opencv-svn/opencv/3rdparty/lapack/slarre.c"; sourceTree = SOURCE_ROOT; };
-		ABC82211135E761600F4D611 /* slarrf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slarrf.c; path = "../opencv-svn/opencv/3rdparty/lapack/slarrf.c"; sourceTree = SOURCE_ROOT; };
-		ABC82212135E761600F4D611 /* slarrj.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slarrj.c; path = "../opencv-svn/opencv/3rdparty/lapack/slarrj.c"; sourceTree = SOURCE_ROOT; };
-		ABC82213135E761600F4D611 /* slarrk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slarrk.c; path = "../opencv-svn/opencv/3rdparty/lapack/slarrk.c"; sourceTree = SOURCE_ROOT; };
-		ABC82214135E761600F4D611 /* slarrr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slarrr.c; path = "../opencv-svn/opencv/3rdparty/lapack/slarrr.c"; sourceTree = SOURCE_ROOT; };
-		ABC82215135E761600F4D611 /* slarrv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slarrv.c; path = "../opencv-svn/opencv/3rdparty/lapack/slarrv.c"; sourceTree = SOURCE_ROOT; };
-		ABC82216135E761600F4D611 /* slartg_custom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slartg_custom.c; path = "../opencv-svn/opencv/3rdparty/lapack/slartg_custom.c"; sourceTree = SOURCE_ROOT; };
-		ABC82217135E761600F4D611 /* slaruv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaruv.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaruv.c"; sourceTree = SOURCE_ROOT; };
-		ABC82218135E761600F4D611 /* slas2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slas2.c; path = "../opencv-svn/opencv/3rdparty/lapack/slas2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82219135E761600F4D611 /* slascl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slascl.c; path = "../opencv-svn/opencv/3rdparty/lapack/slascl.c"; sourceTree = SOURCE_ROOT; };
-		ABC8221A135E761600F4D611 /* slasd0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasd0.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasd0.c"; sourceTree = SOURCE_ROOT; };
-		ABC8221B135E761600F4D611 /* slasd1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasd1.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasd1.c"; sourceTree = SOURCE_ROOT; };
-		ABC8221C135E761600F4D611 /* slasd2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasd2.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasd2.c"; sourceTree = SOURCE_ROOT; };
-		ABC8221D135E761600F4D611 /* slasd3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasd3.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasd3.c"; sourceTree = SOURCE_ROOT; };
-		ABC8221E135E761600F4D611 /* slasd4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasd4.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasd4.c"; sourceTree = SOURCE_ROOT; };
-		ABC8221F135E761600F4D611 /* slasd5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasd5.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasd5.c"; sourceTree = SOURCE_ROOT; };
-		ABC82220135E761600F4D611 /* slasd6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasd6.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasd6.c"; sourceTree = SOURCE_ROOT; };
-		ABC82221135E761600F4D611 /* slasd7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasd7.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasd7.c"; sourceTree = SOURCE_ROOT; };
-		ABC82222135E761600F4D611 /* slasd8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasd8.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasd8.c"; sourceTree = SOURCE_ROOT; };
-		ABC82223135E761600F4D611 /* slasda.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasda.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasda.c"; sourceTree = SOURCE_ROOT; };
-		ABC82224135E761600F4D611 /* slasdq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasdq.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasdq.c"; sourceTree = SOURCE_ROOT; };
-		ABC82225135E761600F4D611 /* slasdt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasdt.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasdt.c"; sourceTree = SOURCE_ROOT; };
-		ABC82226135E761600F4D611 /* slaset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaset.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaset.c"; sourceTree = SOURCE_ROOT; };
-		ABC82227135E761600F4D611 /* slasq1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasq1.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasq1.c"; sourceTree = SOURCE_ROOT; };
-		ABC82228135E761600F4D611 /* slasq2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasq2.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasq2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82229135E761600F4D611 /* slasq3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasq3.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasq3.c"; sourceTree = SOURCE_ROOT; };
-		ABC8222A135E761600F4D611 /* slasq4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasq4.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasq4.c"; sourceTree = SOURCE_ROOT; };
-		ABC8222B135E761600F4D611 /* slasq5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasq5.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasq5.c"; sourceTree = SOURCE_ROOT; };
-		ABC8222C135E761600F4D611 /* slasq6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasq6.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasq6.c"; sourceTree = SOURCE_ROOT; };
-		ABC8222D135E761600F4D611 /* slasr_custom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasr_custom.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasr_custom.c"; sourceTree = SOURCE_ROOT; };
-		ABC8222E135E761600F4D611 /* slasrt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasrt.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasrt.c"; sourceTree = SOURCE_ROOT; };
-		ABC8222F135E761600F4D611 /* slassq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slassq.c; path = "../opencv-svn/opencv/3rdparty/lapack/slassq.c"; sourceTree = SOURCE_ROOT; };
-		ABC82230135E761600F4D611 /* slasv2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slasv2.c; path = "../opencv-svn/opencv/3rdparty/lapack/slasv2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82231135E761600F4D611 /* slaswp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slaswp.c; path = "../opencv-svn/opencv/3rdparty/lapack/slaswp.c"; sourceTree = SOURCE_ROOT; };
-		ABC82232135E761600F4D611 /* slatrd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slatrd.c; path = "../opencv-svn/opencv/3rdparty/lapack/slatrd.c"; sourceTree = SOURCE_ROOT; };
-		ABC82233135E761600F4D611 /* slauu2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slauu2.c; path = "../opencv-svn/opencv/3rdparty/lapack/slauu2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82234135E761600F4D611 /* slauum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = slauum.c; path = "../opencv-svn/opencv/3rdparty/lapack/slauum.c"; sourceTree = SOURCE_ROOT; };
-		ABC82235135E761600F4D611 /* snrm2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = snrm2.c; path = "../opencv-svn/opencv/3rdparty/lapack/snrm2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82236135E761600F4D611 /* sorg2r.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sorg2r.c; path = "../opencv-svn/opencv/3rdparty/lapack/sorg2r.c"; sourceTree = SOURCE_ROOT; };
-		ABC82237135E761600F4D611 /* sorgbr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sorgbr.c; path = "../opencv-svn/opencv/3rdparty/lapack/sorgbr.c"; sourceTree = SOURCE_ROOT; };
-		ABC82238135E761600F4D611 /* sorgl2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sorgl2.c; path = "../opencv-svn/opencv/3rdparty/lapack/sorgl2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82239135E761600F4D611 /* sorglq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sorglq.c; path = "../opencv-svn/opencv/3rdparty/lapack/sorglq.c"; sourceTree = SOURCE_ROOT; };
-		ABC8223A135E761600F4D611 /* sorgqr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sorgqr.c; path = "../opencv-svn/opencv/3rdparty/lapack/sorgqr.c"; sourceTree = SOURCE_ROOT; };
-		ABC8223B135E761600F4D611 /* sorm2l.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sorm2l.c; path = "../opencv-svn/opencv/3rdparty/lapack/sorm2l.c"; sourceTree = SOURCE_ROOT; };
-		ABC8223C135E761600F4D611 /* sorm2r.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sorm2r.c; path = "../opencv-svn/opencv/3rdparty/lapack/sorm2r.c"; sourceTree = SOURCE_ROOT; };
-		ABC8223D135E761600F4D611 /* sormbr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sormbr.c; path = "../opencv-svn/opencv/3rdparty/lapack/sormbr.c"; sourceTree = SOURCE_ROOT; };
-		ABC8223E135E761600F4D611 /* sorml2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sorml2.c; path = "../opencv-svn/opencv/3rdparty/lapack/sorml2.c"; sourceTree = SOURCE_ROOT; };
-		ABC8223F135E761600F4D611 /* sormlq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sormlq.c; path = "../opencv-svn/opencv/3rdparty/lapack/sormlq.c"; sourceTree = SOURCE_ROOT; };
-		ABC82240135E761600F4D611 /* sormql.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sormql.c; path = "../opencv-svn/opencv/3rdparty/lapack/sormql.c"; sourceTree = SOURCE_ROOT; };
-		ABC82241135E761600F4D611 /* sormqr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sormqr.c; path = "../opencv-svn/opencv/3rdparty/lapack/sormqr.c"; sourceTree = SOURCE_ROOT; };
-		ABC82242135E761600F4D611 /* sormtr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sormtr.c; path = "../opencv-svn/opencv/3rdparty/lapack/sormtr.c"; sourceTree = SOURCE_ROOT; };
-		ABC82243135E761600F4D611 /* spotf2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spotf2.c; path = "../opencv-svn/opencv/3rdparty/lapack/spotf2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82244135E761600F4D611 /* spotrf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spotrf.c; path = "../opencv-svn/opencv/3rdparty/lapack/spotrf.c"; sourceTree = SOURCE_ROOT; };
-		ABC82245135E761600F4D611 /* spotri.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spotri.c; path = "../opencv-svn/opencv/3rdparty/lapack/spotri.c"; sourceTree = SOURCE_ROOT; };
-		ABC82246135E761600F4D611 /* spotrs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spotrs.c; path = "../opencv-svn/opencv/3rdparty/lapack/spotrs.c"; sourceTree = SOURCE_ROOT; };
-		ABC82247135E761600F4D611 /* srot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = srot.c; path = "../opencv-svn/opencv/3rdparty/lapack/srot.c"; sourceTree = SOURCE_ROOT; };
-		ABC82248135E761600F4D611 /* sscal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sscal.c; path = "../opencv-svn/opencv/3rdparty/lapack/sscal.c"; sourceTree = SOURCE_ROOT; };
-		ABC82249135E761600F4D611 /* sstebz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sstebz.c; path = "../opencv-svn/opencv/3rdparty/lapack/sstebz.c"; sourceTree = SOURCE_ROOT; };
-		ABC8224A135E761600F4D611 /* sstein.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sstein.c; path = "../opencv-svn/opencv/3rdparty/lapack/sstein.c"; sourceTree = SOURCE_ROOT; };
-		ABC8224B135E761600F4D611 /* sstemr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sstemr.c; path = "../opencv-svn/opencv/3rdparty/lapack/sstemr.c"; sourceTree = SOURCE_ROOT; };
-		ABC8224C135E761600F4D611 /* ssteqr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ssteqr.c; path = "../opencv-svn/opencv/3rdparty/lapack/ssteqr.c"; sourceTree = SOURCE_ROOT; };
-		ABC8224D135E761600F4D611 /* ssterf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ssterf.c; path = "../opencv-svn/opencv/3rdparty/lapack/ssterf.c"; sourceTree = SOURCE_ROOT; };
-		ABC8224E135E761600F4D611 /* sswap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sswap.c; path = "../opencv-svn/opencv/3rdparty/lapack/sswap.c"; sourceTree = SOURCE_ROOT; };
-		ABC8224F135E761600F4D611 /* ssyevr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ssyevr.c; path = "../opencv-svn/opencv/3rdparty/lapack/ssyevr.c"; sourceTree = SOURCE_ROOT; };
-		ABC82250135E761600F4D611 /* ssymv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ssymv.c; path = "../opencv-svn/opencv/3rdparty/lapack/ssymv.c"; sourceTree = SOURCE_ROOT; };
-		ABC82251135E761600F4D611 /* ssyr2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ssyr2.c; path = "../opencv-svn/opencv/3rdparty/lapack/ssyr2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82252135E761600F4D611 /* ssyr2k.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ssyr2k.c; path = "../opencv-svn/opencv/3rdparty/lapack/ssyr2k.c"; sourceTree = SOURCE_ROOT; };
-		ABC82253135E761600F4D611 /* ssyrk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ssyrk.c; path = "../opencv-svn/opencv/3rdparty/lapack/ssyrk.c"; sourceTree = SOURCE_ROOT; };
-		ABC82254135E761600F4D611 /* ssytd2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ssytd2.c; path = "../opencv-svn/opencv/3rdparty/lapack/ssytd2.c"; sourceTree = SOURCE_ROOT; };
-		ABC82255135E761600F4D611 /* ssytrd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ssytrd.c; path = "../opencv-svn/opencv/3rdparty/lapack/ssytrd.c"; sourceTree = SOURCE_ROOT; };
-		ABC82256135E761600F4D611 /* strmm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strmm.c; path = "../opencv-svn/opencv/3rdparty/lapack/strmm.c"; sourceTree = SOURCE_ROOT; };
-		ABC82257135E761600F4D611 /* strmv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strmv.c; path = "../opencv-svn/opencv/3rdparty/lapack/strmv.c"; sourceTree = SOURCE_ROOT; };
-		ABC82258135E761600F4D611 /* strsm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strsm.c; path = "../opencv-svn/opencv/3rdparty/lapack/strsm.c"; sourceTree = SOURCE_ROOT; };
-		ABC82259135E761600F4D611 /* strti2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strti2.c; path = "../opencv-svn/opencv/3rdparty/lapack/strti2.c"; sourceTree = SOURCE_ROOT; };
-		ABC8225A135E761600F4D611 /* strtri.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strtri.c; path = "../opencv-svn/opencv/3rdparty/lapack/strtri.c"; sourceTree = SOURCE_ROOT; };
-		ABC8225B135E761600F4D611 /* strtrs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strtrs.c; path = "../opencv-svn/opencv/3rdparty/lapack/strtrs.c"; sourceTree = SOURCE_ROOT; };
-		ABC8225C135E761600F4D611 /* xerbla.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xerbla.c; path = "../opencv-svn/opencv/3rdparty/lapack/xerbla.c"; sourceTree = SOURCE_ROOT; };
-		ABC8225E135E761600F4D611 /* f2c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = f2c.h; path = "../opencv-svn/opencv/3rdparty/include/f2c.h"; sourceTree = SOURCE_ROOT; };
-		ABC8225F135E761600F4D611 /* cblas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cblas.h; path = "../opencv-svn/opencv/3rdparty/include/cblas.h"; sourceTree = SOURCE_ROOT; };
-		ABC82260135E761600F4D611 /* clapack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clapack.h; path = "../opencv-svn/opencv/3rdparty/include/clapack.h"; sourceTree = SOURCE_ROOT; };
 		ABC823A2135E767D00F4D611 /* libopencv_core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopencv_core.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC823AE135E76BF00F4D611 /* alloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = alloc.cpp; path = "../opencv-svn/opencv/modules/core/src/alloc.cpp"; sourceTree = SOURCE_ROOT; };
 		ABC823AF135E76BF00F4D611 /* arithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arithm.cpp; path = "../opencv-svn/opencv/modules/core/src/arithm.cpp"; sourceTree = SOURCE_ROOT; };
@@ -1916,6 +1282,13 @@
 		ABC827D5135E851500F4D611 /* libopencv_haartraining_engine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopencv_haartraining_engine.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC8280A135E874800F4D611 /* libopencv_legacy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopencv_legacy.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC82873135E889600F4D611 /* libopencv_contrib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopencv_contrib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD38E32138F666F00CD2681 /* orb_pattern.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = orb_pattern.hpp; path = "../opencv-svn/opencv/modules/features2d/src/orb_pattern.hpp"; sourceTree = SOURCE_ROOT; };
+		ABD38E34138F67B100CD2681 /* pngconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pngconf.h; path = "../opencv-svn/opencv/3rdparty/libpng/pngconf.h"; sourceTree = SOURCE_ROOT; };
+		ABD38E36138F680700CD2681 /* jconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jconfig.h; path = "../opencv-svn/opencv/3rdparty/libjpeg/jconfig.h"; sourceTree = SOURCE_ROOT; };
+		ABD38E38138F683B00CD2681 /* jmorecfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jmorecfg.h; path = "../opencv-svn/opencv/3rdparty/libjpeg/jmorecfg.h"; sourceTree = SOURCE_ROOT; };
+		ABD38E3A138F684C00CD2681 /* jpeglib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jpeglib.h; path = "../opencv-svn/opencv/3rdparty/libjpeg/jpeglib.h"; sourceTree = SOURCE_ROOT; };
+		ABD38E3D138F688A00CD2681 /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zconf.h; path = "../opencv-svn/opencv/3rdparty/zlib/zconf.h"; sourceTree = SOURCE_ROOT; };
+		ABD38E3E138F688A00CD2681 /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zlib.h; path = "../opencv-svn/opencv/3rdparty/zlib/zlib.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1934,13 +1307,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ABC820EE135E754400F4D611 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABC82126135E760300F4D611 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2058,7 +1424,6 @@
 				ABC8248C135E789300F4D611 /* libopencv_flann.a */,
 				ABC82404135E77A600F4D611 /* libopencv_imgproc.a */,
 				ABC823A2135E767D00F4D611 /* libopencv_core.a */,
-				ABC82128135E760300F4D611 /* libopencv_lapack.a */,
 				ABC820F0135E754400F4D611 /* liblibpng.a */,
 				ABC82068135E74F000F4D611 /* liblibjpeg.a */,
 				ABC81FED135E743800F4D611 /* libzlib.a */,
@@ -2082,7 +1447,6 @@
 				ABC8261D135E7FD800F4D611 /* opencv_ts */,
 				ABC82409135E77C000F4D611 /* opencv_imgproc */,
 				ABC823AC135E76BF00F4D611 /* opencv_core */,
-				ABC8212B135E761600F4D611 /* opencv_lapack */,
 				ABC820F3135E755200F4D611 /* libpng */,
 				ABC82070135E752100F4D611 /* libjpeg */,
 				ABC81FF3135E74B800F4D611 /* zlib */,
@@ -2132,9 +1496,9 @@
 				ABC8200A135E74B800F4D611 /* inflate.h */,
 				ABC8200B135E74B800F4D611 /* inftrees.h */,
 				ABC8200C135E74B800F4D611 /* trees.h */,
+				ABD38E3D138F688A00CD2681 /* zconf.h */,
+				ABD38E3E138F688A00CD2681 /* zlib.h */,
 				ABC8200D135E74B800F4D611 /* zutil.h */,
-				ABC8200E135E74B800F4D611 /* zlib.h */,
-				ABC8200F135E74B800F4D611 /* zconf.h */,
 			);
 			name = "Header Files";
 			sourceTree = SOURCE_ROOT;
@@ -2206,17 +1570,17 @@
 			isa = PBXGroup;
 			children = (
 				ABC820A2135E752100F4D611 /* jchuff.h */,
+				ABD38E36138F680700CD2681 /* jconfig.h */,
 				ABC820A3135E752100F4D611 /* jdct.h */,
 				ABC820A4135E752100F4D611 /* jdhuff.h */,
 				ABC820A5135E752100F4D611 /* jerror.h */,
 				ABC820A6135E752100F4D611 /* jinclude.h */,
 				ABC820A7135E752100F4D611 /* jmemsys.h */,
+				ABD38E38138F683B00CD2681 /* jmorecfg.h */,
 				ABC820A8135E752100F4D611 /* jpegint.h */,
+				ABD38E3A138F684C00CD2681 /* jpeglib.h */,
 				ABC820A9135E752100F4D611 /* jversion.h */,
 				ABC820AA135E752100F4D611 /* transupp.h */,
-				ABC820AB135E752100F4D611 /* jconfig.h */,
-				ABC820AC135E752100F4D611 /* jmorecfg.h */,
-				ABC820AD135E752100F4D611 /* jpeglib.h */,
 			);
 			name = "Header Files";
 			sourceTree = SOURCE_ROOT;
@@ -2257,337 +1621,8 @@
 			isa = PBXGroup;
 			children = (
 				ABC82106135E755200F4D611 /* png.h */,
+				ABD38E34138F67B100CD2681 /* pngconf.h */,
 				ABC82107135E755200F4D611 /* pngpriv.h */,
-			);
-			name = "Header Files";
-			sourceTree = SOURCE_ROOT;
-		};
-		ABC8212B135E761600F4D611 /* opencv_lapack */ = {
-			isa = PBXGroup;
-			children = (
-				ABC8225D135E761600F4D611 /* Header Files */,
-				ABC8212C135E761600F4D611 /* Source Files */,
-			);
-			name = opencv_lapack;
-			sourceTree = SOURCE_ROOT;
-		};
-		ABC8212C135E761600F4D611 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				ABC8212D135E761600F4D611 /* dasum.c */,
-				ABC8212E135E761600F4D611 /* daxpy.c */,
-				ABC8212F135E761600F4D611 /* dbdsdc.c */,
-				ABC82130135E761600F4D611 /* dbdsqr.c */,
-				ABC82131135E761600F4D611 /* dcopy.c */,
-				ABC82132135E761600F4D611 /* ddot.c */,
-				ABC82133135E761600F4D611 /* dgebd2.c */,
-				ABC82134135E761600F4D611 /* dgebrd.c */,
-				ABC82135135E761600F4D611 /* dgelq2.c */,
-				ABC82136135E761600F4D611 /* dgelqf.c */,
-				ABC82137135E761600F4D611 /* dgels.c */,
-				ABC82138135E761600F4D611 /* dgelsd.c */,
-				ABC82139135E761600F4D611 /* dgemm.c */,
-				ABC8213A135E761600F4D611 /* dgemv_custom.c */,
-				ABC8213B135E761600F4D611 /* dgeqr2.c */,
-				ABC8213C135E761600F4D611 /* dgeqrf.c */,
-				ABC8213D135E761600F4D611 /* dger_custom.c */,
-				ABC8213E135E761600F4D611 /* dgesdd.c */,
-				ABC8213F135E761600F4D611 /* dgesv.c */,
-				ABC82140135E761600F4D611 /* dgetf2.c */,
-				ABC82141135E761600F4D611 /* dgetrf.c */,
-				ABC82142135E761600F4D611 /* dgetri.c */,
-				ABC82143135E761600F4D611 /* dgetrs.c */,
-				ABC82144135E761600F4D611 /* dlabad.c */,
-				ABC82145135E761600F4D611 /* dlabrd.c */,
-				ABC82146135E761600F4D611 /* dlacpy.c */,
-				ABC82147135E761600F4D611 /* dlae2.c */,
-				ABC82148135E761600F4D611 /* dlaebz.c */,
-				ABC82149135E761600F4D611 /* dlaed0.c */,
-				ABC8214A135E761600F4D611 /* dlaed1.c */,
-				ABC8214B135E761600F4D611 /* dlaed2.c */,
-				ABC8214C135E761600F4D611 /* dlaed3.c */,
-				ABC8214D135E761600F4D611 /* dlaed4.c */,
-				ABC8214E135E761600F4D611 /* dlaed5.c */,
-				ABC8214F135E761600F4D611 /* dlaed6.c */,
-				ABC82150135E761600F4D611 /* dlaed7.c */,
-				ABC82151135E761600F4D611 /* dlaed8.c */,
-				ABC82152135E761600F4D611 /* dlaed9.c */,
-				ABC82153135E761600F4D611 /* dlaeda.c */,
-				ABC82154135E761600F4D611 /* dlaev2.c */,
-				ABC82155135E761600F4D611 /* dlagtf.c */,
-				ABC82156135E761600F4D611 /* dlagts.c */,
-				ABC82157135E761600F4D611 /* dlaisnan.c */,
-				ABC82158135E761600F4D611 /* dlals0.c */,
-				ABC82159135E761600F4D611 /* dlalsa.c */,
-				ABC8215A135E761600F4D611 /* dlalsd.c */,
-				ABC8215B135E761600F4D611 /* dlamch_custom.c */,
-				ABC8215C135E761600F4D611 /* dlamrg.c */,
-				ABC8215D135E761600F4D611 /* dlaneg.c */,
-				ABC8215E135E761600F4D611 /* dlange.c */,
-				ABC8215F135E761600F4D611 /* dlanst.c */,
-				ABC82160135E761600F4D611 /* dlansy.c */,
-				ABC82161135E761600F4D611 /* dlapy2.c */,
-				ABC82162135E761600F4D611 /* dlar1v.c */,
-				ABC82163135E761600F4D611 /* dlarf.c */,
-				ABC82164135E761600F4D611 /* dlarfb.c */,
-				ABC82165135E761600F4D611 /* dlarfg.c */,
-				ABC82166135E761600F4D611 /* dlarfp.c */,
-				ABC82167135E761600F4D611 /* dlarft.c */,
-				ABC82168135E761600F4D611 /* dlarnv.c */,
-				ABC82169135E761600F4D611 /* dlarra.c */,
-				ABC8216A135E761600F4D611 /* dlarrb.c */,
-				ABC8216B135E761600F4D611 /* dlarrc.c */,
-				ABC8216C135E761600F4D611 /* dlarrd.c */,
-				ABC8216D135E761600F4D611 /* dlarre.c */,
-				ABC8216E135E761600F4D611 /* dlarrf.c */,
-				ABC8216F135E761600F4D611 /* dlarrj.c */,
-				ABC82170135E761600F4D611 /* dlarrk.c */,
-				ABC82171135E761600F4D611 /* dlarrr.c */,
-				ABC82172135E761600F4D611 /* dlarrv.c */,
-				ABC82173135E761600F4D611 /* dlartg_custom.c */,
-				ABC82174135E761600F4D611 /* dlaruv.c */,
-				ABC82175135E761600F4D611 /* dlas2.c */,
-				ABC82176135E761600F4D611 /* dlascl.c */,
-				ABC82177135E761600F4D611 /* dlasd0.c */,
-				ABC82178135E761600F4D611 /* dlasd1.c */,
-				ABC82179135E761600F4D611 /* dlasd2.c */,
-				ABC8217A135E761600F4D611 /* dlasd3.c */,
-				ABC8217B135E761600F4D611 /* dlasd4.c */,
-				ABC8217C135E761600F4D611 /* dlasd5.c */,
-				ABC8217D135E761600F4D611 /* dlasd6.c */,
-				ABC8217E135E761600F4D611 /* dlasd7.c */,
-				ABC8217F135E761600F4D611 /* dlasd8.c */,
-				ABC82180135E761600F4D611 /* dlasda.c */,
-				ABC82181135E761600F4D611 /* dlasdq.c */,
-				ABC82182135E761600F4D611 /* dlasdt.c */,
-				ABC82183135E761600F4D611 /* dlaset.c */,
-				ABC82184135E761600F4D611 /* dlasq1.c */,
-				ABC82185135E761600F4D611 /* dlasq2.c */,
-				ABC82186135E761600F4D611 /* dlasq3.c */,
-				ABC82187135E761600F4D611 /* dlasq4.c */,
-				ABC82188135E761600F4D611 /* dlasq5.c */,
-				ABC82189135E761600F4D611 /* dlasq6.c */,
-				ABC8218A135E761600F4D611 /* dlasr_custom.c */,
-				ABC8218B135E761600F4D611 /* dlasrt.c */,
-				ABC8218C135E761600F4D611 /* dlassq.c */,
-				ABC8218D135E761600F4D611 /* dlasv2.c */,
-				ABC8218E135E761600F4D611 /* dlaswp.c */,
-				ABC8218F135E761600F4D611 /* dlasyf.c */,
-				ABC82190135E761600F4D611 /* dlatrd.c */,
-				ABC82191135E761600F4D611 /* dlauu2.c */,
-				ABC82192135E761600F4D611 /* dlauum.c */,
-				ABC82193135E761600F4D611 /* dnrm2.c */,
-				ABC82194135E761600F4D611 /* dorg2r.c */,
-				ABC82195135E761600F4D611 /* dorgbr.c */,
-				ABC82196135E761600F4D611 /* dorgl2.c */,
-				ABC82197135E761600F4D611 /* dorglq.c */,
-				ABC82198135E761600F4D611 /* dorgqr.c */,
-				ABC82199135E761600F4D611 /* dorm2l.c */,
-				ABC8219A135E761600F4D611 /* dorm2r.c */,
-				ABC8219B135E761600F4D611 /* dormbr.c */,
-				ABC8219C135E761600F4D611 /* dorml2.c */,
-				ABC8219D135E761600F4D611 /* dormlq.c */,
-				ABC8219E135E761600F4D611 /* dormql.c */,
-				ABC8219F135E761600F4D611 /* dormqr.c */,
-				ABC821A0135E761600F4D611 /* dormtr.c */,
-				ABC821A1135E761600F4D611 /* dpotf2.c */,
-				ABC821A2135E761600F4D611 /* dpotrf.c */,
-				ABC821A3135E761600F4D611 /* dpotri.c */,
-				ABC821A4135E761600F4D611 /* dpotrs.c */,
-				ABC821A5135E761600F4D611 /* drot.c */,
-				ABC821A6135E761600F4D611 /* dscal.c */,
-				ABC821A7135E761600F4D611 /* dstebz.c */,
-				ABC821A8135E761600F4D611 /* dstein.c */,
-				ABC821A9135E761600F4D611 /* dstemr.c */,
-				ABC821AA135E761600F4D611 /* dsteqr.c */,
-				ABC821AB135E761600F4D611 /* dsterf.c */,
-				ABC821AC135E761600F4D611 /* dswap.c */,
-				ABC821AD135E761600F4D611 /* dsyevr.c */,
-				ABC821AE135E761600F4D611 /* dsymv.c */,
-				ABC821AF135E761600F4D611 /* dsyr.c */,
-				ABC821B0135E761600F4D611 /* dsyr2.c */,
-				ABC821B1135E761600F4D611 /* dsyr2k.c */,
-				ABC821B2135E761600F4D611 /* dsyrk.c */,
-				ABC821B3135E761600F4D611 /* dsytd2.c */,
-				ABC821B4135E761600F4D611 /* dsytf2.c */,
-				ABC821B5135E761600F4D611 /* dsytrd.c */,
-				ABC821B6135E761600F4D611 /* dsytrf.c */,
-				ABC821B7135E761600F4D611 /* dsytri.c */,
-				ABC821B8135E761600F4D611 /* dsytrs.c */,
-				ABC821B9135E761600F4D611 /* dtrmm.c */,
-				ABC821BA135E761600F4D611 /* dtrmv.c */,
-				ABC821BB135E761600F4D611 /* dtrsm.c */,
-				ABC821BC135E761600F4D611 /* dtrti2.c */,
-				ABC821BD135E761600F4D611 /* dtrtri.c */,
-				ABC821BE135E761600F4D611 /* dtrtrs.c */,
-				ABC821BF135E761600F4D611 /* f77_aloc.c */,
-				ABC821C0135E761600F4D611 /* idamax.c */,
-				ABC821C1135E761600F4D611 /* ieeeck.c */,
-				ABC821C2135E761600F4D611 /* iladlc.c */,
-				ABC821C3135E761600F4D611 /* iladlr.c */,
-				ABC821C4135E761600F4D611 /* ilaenv_custom.c */,
-				ABC821C5135E761600F4D611 /* ilaslc.c */,
-				ABC821C6135E761600F4D611 /* ilaslr.c */,
-				ABC821C7135E761600F4D611 /* iparmq.c */,
-				ABC821C8135E761600F4D611 /* isamax.c */,
-				ABC821C9135E761600F4D611 /* pow_di.c */,
-				ABC821CA135E761600F4D611 /* pow_ii.c */,
-				ABC821CB135E761600F4D611 /* pow_ri.c */,
-				ABC821CC135E761600F4D611 /* precomp.c */,
-				ABC821CD135E761600F4D611 /* s_cat.c */,
-				ABC821CE135E761600F4D611 /* s_cmp.c */,
-				ABC821CF135E761600F4D611 /* s_copy.c */,
-				ABC821D0135E761600F4D611 /* sasum.c */,
-				ABC821D1135E761600F4D611 /* saxpy.c */,
-				ABC821D2135E761600F4D611 /* sbdsdc.c */,
-				ABC821D3135E761600F4D611 /* sbdsqr.c */,
-				ABC821D4135E761600F4D611 /* scopy.c */,
-				ABC821D5135E761600F4D611 /* sdot.c */,
-				ABC821D6135E761600F4D611 /* sgebd2.c */,
-				ABC821D7135E761600F4D611 /* sgebrd.c */,
-				ABC821D8135E761600F4D611 /* sgelq2.c */,
-				ABC821D9135E761600F4D611 /* sgelqf.c */,
-				ABC821DA135E761600F4D611 /* sgels.c */,
-				ABC821DB135E761600F4D611 /* sgelsd.c */,
-				ABC821DC135E761600F4D611 /* sgemm.c */,
-				ABC821DD135E761600F4D611 /* sgemv_custom.c */,
-				ABC821DE135E761600F4D611 /* sgeqr2.c */,
-				ABC821DF135E761600F4D611 /* sgeqrf.c */,
-				ABC821E0135E761600F4D611 /* sger_custom.c */,
-				ABC821E1135E761600F4D611 /* sgesdd.c */,
-				ABC821E2135E761600F4D611 /* sgesv.c */,
-				ABC821E3135E761600F4D611 /* sgetf2.c */,
-				ABC821E4135E761600F4D611 /* sgetrf.c */,
-				ABC821E5135E761600F4D611 /* sgetri.c */,
-				ABC821E6135E761600F4D611 /* sgetrs.c */,
-				ABC821E7135E761600F4D611 /* slabad.c */,
-				ABC821E8135E761600F4D611 /* slabrd.c */,
-				ABC821E9135E761600F4D611 /* slacpy.c */,
-				ABC821EA135E761600F4D611 /* slae2.c */,
-				ABC821EB135E761600F4D611 /* slaebz.c */,
-				ABC821EC135E761600F4D611 /* slaed0.c */,
-				ABC821ED135E761600F4D611 /* slaed1.c */,
-				ABC821EE135E761600F4D611 /* slaed2.c */,
-				ABC821EF135E761600F4D611 /* slaed3.c */,
-				ABC821F0135E761600F4D611 /* slaed4.c */,
-				ABC821F1135E761600F4D611 /* slaed5.c */,
-				ABC821F2135E761600F4D611 /* slaed6.c */,
-				ABC821F3135E761600F4D611 /* slaed7.c */,
-				ABC821F4135E761600F4D611 /* slaed8.c */,
-				ABC821F5135E761600F4D611 /* slaed9.c */,
-				ABC821F6135E761600F4D611 /* slaeda.c */,
-				ABC821F7135E761600F4D611 /* slaev2.c */,
-				ABC821F8135E761600F4D611 /* slagtf.c */,
-				ABC821F9135E761600F4D611 /* slagts.c */,
-				ABC821FA135E761600F4D611 /* slaisnan.c */,
-				ABC821FB135E761600F4D611 /* slals0.c */,
-				ABC821FC135E761600F4D611 /* slalsa.c */,
-				ABC821FD135E761600F4D611 /* slalsd.c */,
-				ABC821FE135E761600F4D611 /* slamch_custom.c */,
-				ABC821FF135E761600F4D611 /* slamrg.c */,
-				ABC82200135E761600F4D611 /* slaneg.c */,
-				ABC82201135E761600F4D611 /* slange.c */,
-				ABC82202135E761600F4D611 /* slanst.c */,
-				ABC82203135E761600F4D611 /* slansy.c */,
-				ABC82204135E761600F4D611 /* slapy2.c */,
-				ABC82205135E761600F4D611 /* slar1v.c */,
-				ABC82206135E761600F4D611 /* slarf.c */,
-				ABC82207135E761600F4D611 /* slarfb.c */,
-				ABC82208135E761600F4D611 /* slarfg.c */,
-				ABC82209135E761600F4D611 /* slarfp.c */,
-				ABC8220A135E761600F4D611 /* slarft.c */,
-				ABC8220B135E761600F4D611 /* slarnv.c */,
-				ABC8220C135E761600F4D611 /* slarra.c */,
-				ABC8220D135E761600F4D611 /* slarrb.c */,
-				ABC8220E135E761600F4D611 /* slarrc.c */,
-				ABC8220F135E761600F4D611 /* slarrd.c */,
-				ABC82210135E761600F4D611 /* slarre.c */,
-				ABC82211135E761600F4D611 /* slarrf.c */,
-				ABC82212135E761600F4D611 /* slarrj.c */,
-				ABC82213135E761600F4D611 /* slarrk.c */,
-				ABC82214135E761600F4D611 /* slarrr.c */,
-				ABC82215135E761600F4D611 /* slarrv.c */,
-				ABC82216135E761600F4D611 /* slartg_custom.c */,
-				ABC82217135E761600F4D611 /* slaruv.c */,
-				ABC82218135E761600F4D611 /* slas2.c */,
-				ABC82219135E761600F4D611 /* slascl.c */,
-				ABC8221A135E761600F4D611 /* slasd0.c */,
-				ABC8221B135E761600F4D611 /* slasd1.c */,
-				ABC8221C135E761600F4D611 /* slasd2.c */,
-				ABC8221D135E761600F4D611 /* slasd3.c */,
-				ABC8221E135E761600F4D611 /* slasd4.c */,
-				ABC8221F135E761600F4D611 /* slasd5.c */,
-				ABC82220135E761600F4D611 /* slasd6.c */,
-				ABC82221135E761600F4D611 /* slasd7.c */,
-				ABC82222135E761600F4D611 /* slasd8.c */,
-				ABC82223135E761600F4D611 /* slasda.c */,
-				ABC82224135E761600F4D611 /* slasdq.c */,
-				ABC82225135E761600F4D611 /* slasdt.c */,
-				ABC82226135E761600F4D611 /* slaset.c */,
-				ABC82227135E761600F4D611 /* slasq1.c */,
-				ABC82228135E761600F4D611 /* slasq2.c */,
-				ABC82229135E761600F4D611 /* slasq3.c */,
-				ABC8222A135E761600F4D611 /* slasq4.c */,
-				ABC8222B135E761600F4D611 /* slasq5.c */,
-				ABC8222C135E761600F4D611 /* slasq6.c */,
-				ABC8222D135E761600F4D611 /* slasr_custom.c */,
-				ABC8222E135E761600F4D611 /* slasrt.c */,
-				ABC8222F135E761600F4D611 /* slassq.c */,
-				ABC82230135E761600F4D611 /* slasv2.c */,
-				ABC82231135E761600F4D611 /* slaswp.c */,
-				ABC82232135E761600F4D611 /* slatrd.c */,
-				ABC82233135E761600F4D611 /* slauu2.c */,
-				ABC82234135E761600F4D611 /* slauum.c */,
-				ABC82235135E761600F4D611 /* snrm2.c */,
-				ABC82236135E761600F4D611 /* sorg2r.c */,
-				ABC82237135E761600F4D611 /* sorgbr.c */,
-				ABC82238135E761600F4D611 /* sorgl2.c */,
-				ABC82239135E761600F4D611 /* sorglq.c */,
-				ABC8223A135E761600F4D611 /* sorgqr.c */,
-				ABC8223B135E761600F4D611 /* sorm2l.c */,
-				ABC8223C135E761600F4D611 /* sorm2r.c */,
-				ABC8223D135E761600F4D611 /* sormbr.c */,
-				ABC8223E135E761600F4D611 /* sorml2.c */,
-				ABC8223F135E761600F4D611 /* sormlq.c */,
-				ABC82240135E761600F4D611 /* sormql.c */,
-				ABC82241135E761600F4D611 /* sormqr.c */,
-				ABC82242135E761600F4D611 /* sormtr.c */,
-				ABC82243135E761600F4D611 /* spotf2.c */,
-				ABC82244135E761600F4D611 /* spotrf.c */,
-				ABC82245135E761600F4D611 /* spotri.c */,
-				ABC82246135E761600F4D611 /* spotrs.c */,
-				ABC82247135E761600F4D611 /* srot.c */,
-				ABC82248135E761600F4D611 /* sscal.c */,
-				ABC82249135E761600F4D611 /* sstebz.c */,
-				ABC8224A135E761600F4D611 /* sstein.c */,
-				ABC8224B135E761600F4D611 /* sstemr.c */,
-				ABC8224C135E761600F4D611 /* ssteqr.c */,
-				ABC8224D135E761600F4D611 /* ssterf.c */,
-				ABC8224E135E761600F4D611 /* sswap.c */,
-				ABC8224F135E761600F4D611 /* ssyevr.c */,
-				ABC82250135E761600F4D611 /* ssymv.c */,
-				ABC82251135E761600F4D611 /* ssyr2.c */,
-				ABC82252135E761600F4D611 /* ssyr2k.c */,
-				ABC82253135E761600F4D611 /* ssyrk.c */,
-				ABC82254135E761600F4D611 /* ssytd2.c */,
-				ABC82255135E761600F4D611 /* ssytrd.c */,
-				ABC82256135E761600F4D611 /* strmm.c */,
-				ABC82257135E761600F4D611 /* strmv.c */,
-				ABC82258135E761600F4D611 /* strsm.c */,
-				ABC82259135E761600F4D611 /* strti2.c */,
-				ABC8225A135E761600F4D611 /* strtri.c */,
-				ABC8225B135E761600F4D611 /* strtrs.c */,
-				ABC8225C135E761600F4D611 /* xerbla.c */,
-			);
-			name = "Source Files";
-			sourceTree = SOURCE_ROOT;
-		};
-		ABC8225D135E761600F4D611 /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				ABC8225E135E761600F4D611 /* f2c.h */,
-				ABC8225F135E761600F4D611 /* cblas.h */,
-				ABC82260135E761600F4D611 /* clapack.h */,
 			);
 			name = "Header Files";
 			sourceTree = SOURCE_ROOT;
@@ -2803,6 +1838,7 @@
 				ABC82502135E79BA00F4D611 /* sift.cpp */,
 				ABC82503135E79BA00F4D611 /* stardetector.cpp */,
 				ABC82504135E79BA00F4D611 /* surf.cpp */,
+				ABD38E32138F666F00CD2681 /* orb_pattern.hpp */,
 				ABC82505135E79BA00F4D611 /* precomp.hpp */,
 			);
 			name = Src;
@@ -3206,9 +2242,9 @@
 				ABC82043135E74B800F4D611 /* inftrees.h in Headers */,
 				ABC82044135E74B800F4D611 /* trees.h in Headers */,
 				ABC82045135E74B800F4D611 /* zutil.h in Headers */,
-				ABC82046135E74B800F4D611 /* zlib.h in Headers */,
-				ABC82047135E74B800F4D611 /* zconf.h in Headers */,
 				AB3D41B41364EB22008FCC43 /* crt_externs.h in Headers */,
+				ABD38E3F138F688A00CD2681 /* zconf.h in Headers */,
+				ABD38E40138F688A00CD2681 /* zlib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3225,10 +2261,10 @@
 				ABC820E4135E752100F4D611 /* jpegint.h in Headers */,
 				ABC820E5135E752100F4D611 /* jversion.h in Headers */,
 				ABC820E6135E752100F4D611 /* transupp.h in Headers */,
-				ABC820E7135E752100F4D611 /* jconfig.h in Headers */,
-				ABC820E8135E752100F4D611 /* jmorecfg.h in Headers */,
-				ABC820E9135E752100F4D611 /* jpeglib.h in Headers */,
 				AB3D41B51364EB22008FCC43 /* crt_externs.h in Headers */,
+				ABD38E37138F680700CD2681 /* jconfig.h in Headers */,
+				ABD38E39138F683B00CD2681 /* jmorecfg.h in Headers */,
+				ABD38E3B138F684C00CD2681 /* jpeglib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3239,17 +2275,7 @@
 				ABC82119135E755300F4D611 /* png.h in Headers */,
 				ABC8211A135E755300F4D611 /* pngpriv.h in Headers */,
 				AB3D41B61364EB22008FCC43 /* crt_externs.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABC82124135E760300F4D611 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABC82392135E761600F4D611 /* f2c.h in Headers */,
-				ABC82393135E761600F4D611 /* cblas.h in Headers */,
-				ABC82394135E761600F4D611 /* clapack.h in Headers */,
-				AB3D41B31364EB22008FCC43 /* crt_externs.h in Headers */,
+				ABD38E35138F67B100CD2681 /* pngconf.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3330,6 +2356,7 @@
 				ABC8251C135E79BA00F4D611 /* precomp.hpp in Headers */,
 				ABC8251D135E79BA00F4D611 /* features2d.hpp in Headers */,
 				AB3D41A91364EB22008FCC43 /* crt_externs.h in Headers */,
+				ABD38E33138F666F00CD2681 /* orb_pattern.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3488,23 +2515,6 @@
 			productReference = ABC820F0135E754400F4D611 /* liblibpng.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		ABC82127135E760300F4D611 /* opencv_lapack */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ABC82395135E761700F4D611 /* Build configuration list for PBXNativeTarget "opencv_lapack" */;
-			buildPhases = (
-				ABC82124135E760300F4D611 /* Headers */,
-				ABC82125135E760300F4D611 /* Sources */,
-				ABC82126135E760300F4D611 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = opencv_lapack;
-			productName = opencv_lapack;
-			productReference = ABC82128135E760300F4D611 /* libopencv_lapack.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		ABC823A1135E767D00F4D611 /* opencv_core */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABC823AB135E76A400F4D611 /* Build configuration list for PBXNativeTarget "opencv_core" */;
@@ -3517,7 +2527,6 @@
 			);
 			dependencies = (
 				ABC823A6135E768500F4D611 /* PBXTargetDependency */,
-				ABC823A8135E768500F4D611 /* PBXTargetDependency */,
 			);
 			name = opencv_core;
 			productName = opencv_core;
@@ -3781,7 +2790,6 @@
 				ABC82570135E7BCA00F4D611 /* opencv_objdetect */,
 				ABC82645135E80B400F4D611 /* opencv_video */,
 				ABC827D4135E851500F4D611 /* opencv_haartraining_engine */,
-				ABC82127135E760300F4D611 /* opencv_lapack */,
 				ABC81FEC135E743800F4D611 /* zlib */,
 				ABC82067135E74F000F4D611 /* libjpeg */,
 				ABC820EF135E754400F4D611 /* libpng */,
@@ -3886,317 +2894,6 @@
 				ABC82116135E755300F4D611 /* pngwrite.c in Sources */,
 				ABC82117135E755300F4D611 /* pngwtran.c in Sources */,
 				ABC82118135E755300F4D611 /* pngwutil.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABC82125135E760300F4D611 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABC82262135E761600F4D611 /* dasum.c in Sources */,
-				ABC82263135E761600F4D611 /* daxpy.c in Sources */,
-				ABC82264135E761600F4D611 /* dbdsdc.c in Sources */,
-				ABC82265135E761600F4D611 /* dbdsqr.c in Sources */,
-				ABC82266135E761600F4D611 /* dcopy.c in Sources */,
-				ABC82267135E761600F4D611 /* ddot.c in Sources */,
-				ABC82268135E761600F4D611 /* dgebd2.c in Sources */,
-				ABC82269135E761600F4D611 /* dgebrd.c in Sources */,
-				ABC8226A135E761600F4D611 /* dgelq2.c in Sources */,
-				ABC8226B135E761600F4D611 /* dgelqf.c in Sources */,
-				ABC8226C135E761600F4D611 /* dgels.c in Sources */,
-				ABC8226D135E761600F4D611 /* dgelsd.c in Sources */,
-				ABC8226E135E761600F4D611 /* dgemm.c in Sources */,
-				ABC8226F135E761600F4D611 /* dgemv_custom.c in Sources */,
-				ABC82270135E761600F4D611 /* dgeqr2.c in Sources */,
-				ABC82271135E761600F4D611 /* dgeqrf.c in Sources */,
-				ABC82272135E761600F4D611 /* dger_custom.c in Sources */,
-				ABC82273135E761600F4D611 /* dgesdd.c in Sources */,
-				ABC82274135E761600F4D611 /* dgesv.c in Sources */,
-				ABC82275135E761600F4D611 /* dgetf2.c in Sources */,
-				ABC82276135E761600F4D611 /* dgetrf.c in Sources */,
-				ABC82277135E761600F4D611 /* dgetri.c in Sources */,
-				ABC82278135E761600F4D611 /* dgetrs.c in Sources */,
-				ABC82279135E761600F4D611 /* dlabad.c in Sources */,
-				ABC8227A135E761600F4D611 /* dlabrd.c in Sources */,
-				ABC8227B135E761600F4D611 /* dlacpy.c in Sources */,
-				ABC8227C135E761600F4D611 /* dlae2.c in Sources */,
-				ABC8227D135E761600F4D611 /* dlaebz.c in Sources */,
-				ABC8227E135E761600F4D611 /* dlaed0.c in Sources */,
-				ABC8227F135E761600F4D611 /* dlaed1.c in Sources */,
-				ABC82280135E761600F4D611 /* dlaed2.c in Sources */,
-				ABC82281135E761600F4D611 /* dlaed3.c in Sources */,
-				ABC82282135E761600F4D611 /* dlaed4.c in Sources */,
-				ABC82283135E761600F4D611 /* dlaed5.c in Sources */,
-				ABC82284135E761600F4D611 /* dlaed6.c in Sources */,
-				ABC82285135E761600F4D611 /* dlaed7.c in Sources */,
-				ABC82286135E761600F4D611 /* dlaed8.c in Sources */,
-				ABC82287135E761600F4D611 /* dlaed9.c in Sources */,
-				ABC82288135E761600F4D611 /* dlaeda.c in Sources */,
-				ABC82289135E761600F4D611 /* dlaev2.c in Sources */,
-				ABC8228A135E761600F4D611 /* dlagtf.c in Sources */,
-				ABC8228B135E761600F4D611 /* dlagts.c in Sources */,
-				ABC8228C135E761600F4D611 /* dlaisnan.c in Sources */,
-				ABC8228D135E761600F4D611 /* dlals0.c in Sources */,
-				ABC8228E135E761600F4D611 /* dlalsa.c in Sources */,
-				ABC8228F135E761600F4D611 /* dlalsd.c in Sources */,
-				ABC82290135E761600F4D611 /* dlamch_custom.c in Sources */,
-				ABC82291135E761600F4D611 /* dlamrg.c in Sources */,
-				ABC82292135E761600F4D611 /* dlaneg.c in Sources */,
-				ABC82293135E761600F4D611 /* dlange.c in Sources */,
-				ABC82294135E761600F4D611 /* dlanst.c in Sources */,
-				ABC82295135E761600F4D611 /* dlansy.c in Sources */,
-				ABC82296135E761600F4D611 /* dlapy2.c in Sources */,
-				ABC82297135E761600F4D611 /* dlar1v.c in Sources */,
-				ABC82298135E761600F4D611 /* dlarf.c in Sources */,
-				ABC82299135E761600F4D611 /* dlarfb.c in Sources */,
-				ABC8229A135E761600F4D611 /* dlarfg.c in Sources */,
-				ABC8229B135E761600F4D611 /* dlarfp.c in Sources */,
-				ABC8229C135E761600F4D611 /* dlarft.c in Sources */,
-				ABC8229D135E761600F4D611 /* dlarnv.c in Sources */,
-				ABC8229E135E761600F4D611 /* dlarra.c in Sources */,
-				ABC8229F135E761600F4D611 /* dlarrb.c in Sources */,
-				ABC822A0135E761600F4D611 /* dlarrc.c in Sources */,
-				ABC822A1135E761600F4D611 /* dlarrd.c in Sources */,
-				ABC822A2135E761600F4D611 /* dlarre.c in Sources */,
-				ABC822A3135E761600F4D611 /* dlarrf.c in Sources */,
-				ABC822A4135E761600F4D611 /* dlarrj.c in Sources */,
-				ABC822A5135E761600F4D611 /* dlarrk.c in Sources */,
-				ABC822A6135E761600F4D611 /* dlarrr.c in Sources */,
-				ABC822A7135E761600F4D611 /* dlarrv.c in Sources */,
-				ABC822A8135E761600F4D611 /* dlartg_custom.c in Sources */,
-				ABC822A9135E761600F4D611 /* dlaruv.c in Sources */,
-				ABC822AA135E761600F4D611 /* dlas2.c in Sources */,
-				ABC822AB135E761600F4D611 /* dlascl.c in Sources */,
-				ABC822AC135E761600F4D611 /* dlasd0.c in Sources */,
-				ABC822AD135E761600F4D611 /* dlasd1.c in Sources */,
-				ABC822AE135E761600F4D611 /* dlasd2.c in Sources */,
-				ABC822AF135E761600F4D611 /* dlasd3.c in Sources */,
-				ABC822B0135E761600F4D611 /* dlasd4.c in Sources */,
-				ABC822B1135E761600F4D611 /* dlasd5.c in Sources */,
-				ABC822B2135E761600F4D611 /* dlasd6.c in Sources */,
-				ABC822B3135E761600F4D611 /* dlasd7.c in Sources */,
-				ABC822B4135E761600F4D611 /* dlasd8.c in Sources */,
-				ABC822B5135E761600F4D611 /* dlasda.c in Sources */,
-				ABC822B6135E761600F4D611 /* dlasdq.c in Sources */,
-				ABC822B7135E761600F4D611 /* dlasdt.c in Sources */,
-				ABC822B8135E761600F4D611 /* dlaset.c in Sources */,
-				ABC822B9135E761600F4D611 /* dlasq1.c in Sources */,
-				ABC822BA135E761600F4D611 /* dlasq2.c in Sources */,
-				ABC822BB135E761600F4D611 /* dlasq3.c in Sources */,
-				ABC822BC135E761600F4D611 /* dlasq4.c in Sources */,
-				ABC822BD135E761600F4D611 /* dlasq5.c in Sources */,
-				ABC822BE135E761600F4D611 /* dlasq6.c in Sources */,
-				ABC822BF135E761600F4D611 /* dlasr_custom.c in Sources */,
-				ABC822C0135E761600F4D611 /* dlasrt.c in Sources */,
-				ABC822C1135E761600F4D611 /* dlassq.c in Sources */,
-				ABC822C2135E761600F4D611 /* dlasv2.c in Sources */,
-				ABC822C3135E761600F4D611 /* dlaswp.c in Sources */,
-				ABC822C4135E761600F4D611 /* dlasyf.c in Sources */,
-				ABC822C5135E761600F4D611 /* dlatrd.c in Sources */,
-				ABC822C6135E761600F4D611 /* dlauu2.c in Sources */,
-				ABC822C7135E761600F4D611 /* dlauum.c in Sources */,
-				ABC822C8135E761600F4D611 /* dnrm2.c in Sources */,
-				ABC822C9135E761600F4D611 /* dorg2r.c in Sources */,
-				ABC822CA135E761600F4D611 /* dorgbr.c in Sources */,
-				ABC822CB135E761600F4D611 /* dorgl2.c in Sources */,
-				ABC822CC135E761600F4D611 /* dorglq.c in Sources */,
-				ABC822CD135E761600F4D611 /* dorgqr.c in Sources */,
-				ABC822CE135E761600F4D611 /* dorm2l.c in Sources */,
-				ABC822CF135E761600F4D611 /* dorm2r.c in Sources */,
-				ABC822D0135E761600F4D611 /* dormbr.c in Sources */,
-				ABC822D1135E761600F4D611 /* dorml2.c in Sources */,
-				ABC822D2135E761600F4D611 /* dormlq.c in Sources */,
-				ABC822D3135E761600F4D611 /* dormql.c in Sources */,
-				ABC822D4135E761600F4D611 /* dormqr.c in Sources */,
-				ABC822D5135E761600F4D611 /* dormtr.c in Sources */,
-				ABC822D6135E761600F4D611 /* dpotf2.c in Sources */,
-				ABC822D7135E761600F4D611 /* dpotrf.c in Sources */,
-				ABC822D8135E761600F4D611 /* dpotri.c in Sources */,
-				ABC822D9135E761600F4D611 /* dpotrs.c in Sources */,
-				ABC822DA135E761600F4D611 /* drot.c in Sources */,
-				ABC822DB135E761600F4D611 /* dscal.c in Sources */,
-				ABC822DC135E761600F4D611 /* dstebz.c in Sources */,
-				ABC822DD135E761600F4D611 /* dstein.c in Sources */,
-				ABC822DE135E761600F4D611 /* dstemr.c in Sources */,
-				ABC822DF135E761600F4D611 /* dsteqr.c in Sources */,
-				ABC822E0135E761600F4D611 /* dsterf.c in Sources */,
-				ABC822E1135E761600F4D611 /* dswap.c in Sources */,
-				ABC822E2135E761600F4D611 /* dsyevr.c in Sources */,
-				ABC822E3135E761600F4D611 /* dsymv.c in Sources */,
-				ABC822E4135E761600F4D611 /* dsyr.c in Sources */,
-				ABC822E5135E761600F4D611 /* dsyr2.c in Sources */,
-				ABC822E6135E761600F4D611 /* dsyr2k.c in Sources */,
-				ABC822E7135E761600F4D611 /* dsyrk.c in Sources */,
-				ABC822E8135E761600F4D611 /* dsytd2.c in Sources */,
-				ABC822E9135E761600F4D611 /* dsytf2.c in Sources */,
-				ABC822EA135E761600F4D611 /* dsytrd.c in Sources */,
-				ABC822EB135E761600F4D611 /* dsytrf.c in Sources */,
-				ABC822EC135E761600F4D611 /* dsytri.c in Sources */,
-				ABC822ED135E761600F4D611 /* dsytrs.c in Sources */,
-				ABC822EE135E761600F4D611 /* dtrmm.c in Sources */,
-				ABC822EF135E761600F4D611 /* dtrmv.c in Sources */,
-				ABC822F0135E761600F4D611 /* dtrsm.c in Sources */,
-				ABC822F1135E761600F4D611 /* dtrti2.c in Sources */,
-				ABC822F2135E761600F4D611 /* dtrtri.c in Sources */,
-				ABC822F3135E761600F4D611 /* dtrtrs.c in Sources */,
-				ABC822F4135E761600F4D611 /* f77_aloc.c in Sources */,
-				ABC822F5135E761600F4D611 /* idamax.c in Sources */,
-				ABC822F6135E761600F4D611 /* ieeeck.c in Sources */,
-				ABC822F7135E761600F4D611 /* iladlc.c in Sources */,
-				ABC822F8135E761600F4D611 /* iladlr.c in Sources */,
-				ABC822F9135E761600F4D611 /* ilaenv_custom.c in Sources */,
-				ABC822FA135E761600F4D611 /* ilaslc.c in Sources */,
-				ABC822FB135E761600F4D611 /* ilaslr.c in Sources */,
-				ABC822FC135E761600F4D611 /* iparmq.c in Sources */,
-				ABC822FD135E761600F4D611 /* isamax.c in Sources */,
-				ABC822FE135E761600F4D611 /* pow_di.c in Sources */,
-				ABC822FF135E761600F4D611 /* pow_ii.c in Sources */,
-				ABC82300135E761600F4D611 /* pow_ri.c in Sources */,
-				ABC82301135E761600F4D611 /* precomp.c in Sources */,
-				ABC82302135E761600F4D611 /* s_cat.c in Sources */,
-				ABC82303135E761600F4D611 /* s_cmp.c in Sources */,
-				ABC82304135E761600F4D611 /* s_copy.c in Sources */,
-				ABC82305135E761600F4D611 /* sasum.c in Sources */,
-				ABC82306135E761600F4D611 /* saxpy.c in Sources */,
-				ABC82307135E761600F4D611 /* sbdsdc.c in Sources */,
-				ABC82308135E761600F4D611 /* sbdsqr.c in Sources */,
-				ABC82309135E761600F4D611 /* scopy.c in Sources */,
-				ABC8230A135E761600F4D611 /* sdot.c in Sources */,
-				ABC8230B135E761600F4D611 /* sgebd2.c in Sources */,
-				ABC8230C135E761600F4D611 /* sgebrd.c in Sources */,
-				ABC8230D135E761600F4D611 /* sgelq2.c in Sources */,
-				ABC8230E135E761600F4D611 /* sgelqf.c in Sources */,
-				ABC8230F135E761600F4D611 /* sgels.c in Sources */,
-				ABC82310135E761600F4D611 /* sgelsd.c in Sources */,
-				ABC82311135E761600F4D611 /* sgemm.c in Sources */,
-				ABC82312135E761600F4D611 /* sgemv_custom.c in Sources */,
-				ABC82313135E761600F4D611 /* sgeqr2.c in Sources */,
-				ABC82314135E761600F4D611 /* sgeqrf.c in Sources */,
-				ABC82315135E761600F4D611 /* sger_custom.c in Sources */,
-				ABC82316135E761600F4D611 /* sgesdd.c in Sources */,
-				ABC82317135E761600F4D611 /* sgesv.c in Sources */,
-				ABC82318135E761600F4D611 /* sgetf2.c in Sources */,
-				ABC82319135E761600F4D611 /* sgetrf.c in Sources */,
-				ABC8231A135E761600F4D611 /* sgetri.c in Sources */,
-				ABC8231B135E761600F4D611 /* sgetrs.c in Sources */,
-				ABC8231C135E761600F4D611 /* slabad.c in Sources */,
-				ABC8231D135E761600F4D611 /* slabrd.c in Sources */,
-				ABC8231E135E761600F4D611 /* slacpy.c in Sources */,
-				ABC8231F135E761600F4D611 /* slae2.c in Sources */,
-				ABC82320135E761600F4D611 /* slaebz.c in Sources */,
-				ABC82321135E761600F4D611 /* slaed0.c in Sources */,
-				ABC82322135E761600F4D611 /* slaed1.c in Sources */,
-				ABC82323135E761600F4D611 /* slaed2.c in Sources */,
-				ABC82324135E761600F4D611 /* slaed3.c in Sources */,
-				ABC82325135E761600F4D611 /* slaed4.c in Sources */,
-				ABC82326135E761600F4D611 /* slaed5.c in Sources */,
-				ABC82327135E761600F4D611 /* slaed6.c in Sources */,
-				ABC82328135E761600F4D611 /* slaed7.c in Sources */,
-				ABC82329135E761600F4D611 /* slaed8.c in Sources */,
-				ABC8232A135E761600F4D611 /* slaed9.c in Sources */,
-				ABC8232B135E761600F4D611 /* slaeda.c in Sources */,
-				ABC8232C135E761600F4D611 /* slaev2.c in Sources */,
-				ABC8232D135E761600F4D611 /* slagtf.c in Sources */,
-				ABC8232E135E761600F4D611 /* slagts.c in Sources */,
-				ABC8232F135E761600F4D611 /* slaisnan.c in Sources */,
-				ABC82330135E761600F4D611 /* slals0.c in Sources */,
-				ABC82331135E761600F4D611 /* slalsa.c in Sources */,
-				ABC82332135E761600F4D611 /* slalsd.c in Sources */,
-				ABC82333135E761600F4D611 /* slamch_custom.c in Sources */,
-				ABC82334135E761600F4D611 /* slamrg.c in Sources */,
-				ABC82335135E761600F4D611 /* slaneg.c in Sources */,
-				ABC82336135E761600F4D611 /* slange.c in Sources */,
-				ABC82337135E761600F4D611 /* slanst.c in Sources */,
-				ABC82338135E761600F4D611 /* slansy.c in Sources */,
-				ABC82339135E761600F4D611 /* slapy2.c in Sources */,
-				ABC8233A135E761600F4D611 /* slar1v.c in Sources */,
-				ABC8233B135E761600F4D611 /* slarf.c in Sources */,
-				ABC8233C135E761600F4D611 /* slarfb.c in Sources */,
-				ABC8233D135E761600F4D611 /* slarfg.c in Sources */,
-				ABC8233E135E761600F4D611 /* slarfp.c in Sources */,
-				ABC8233F135E761600F4D611 /* slarft.c in Sources */,
-				ABC82340135E761600F4D611 /* slarnv.c in Sources */,
-				ABC82341135E761600F4D611 /* slarra.c in Sources */,
-				ABC82342135E761600F4D611 /* slarrb.c in Sources */,
-				ABC82343135E761600F4D611 /* slarrc.c in Sources */,
-				ABC82344135E761600F4D611 /* slarrd.c in Sources */,
-				ABC82345135E761600F4D611 /* slarre.c in Sources */,
-				ABC82346135E761600F4D611 /* slarrf.c in Sources */,
-				ABC82347135E761600F4D611 /* slarrj.c in Sources */,
-				ABC82348135E761600F4D611 /* slarrk.c in Sources */,
-				ABC82349135E761600F4D611 /* slarrr.c in Sources */,
-				ABC8234A135E761600F4D611 /* slarrv.c in Sources */,
-				ABC8234B135E761600F4D611 /* slartg_custom.c in Sources */,
-				ABC8234C135E761600F4D611 /* slaruv.c in Sources */,
-				ABC8234D135E761600F4D611 /* slas2.c in Sources */,
-				ABC8234E135E761600F4D611 /* slascl.c in Sources */,
-				ABC8234F135E761600F4D611 /* slasd0.c in Sources */,
-				ABC82350135E761600F4D611 /* slasd1.c in Sources */,
-				ABC82351135E761600F4D611 /* slasd2.c in Sources */,
-				ABC82352135E761600F4D611 /* slasd3.c in Sources */,
-				ABC82353135E761600F4D611 /* slasd4.c in Sources */,
-				ABC82354135E761600F4D611 /* slasd5.c in Sources */,
-				ABC82355135E761600F4D611 /* slasd6.c in Sources */,
-				ABC82356135E761600F4D611 /* slasd7.c in Sources */,
-				ABC82357135E761600F4D611 /* slasd8.c in Sources */,
-				ABC82358135E761600F4D611 /* slasda.c in Sources */,
-				ABC82359135E761600F4D611 /* slasdq.c in Sources */,
-				ABC8235A135E761600F4D611 /* slasdt.c in Sources */,
-				ABC8235B135E761600F4D611 /* slaset.c in Sources */,
-				ABC8235C135E761600F4D611 /* slasq1.c in Sources */,
-				ABC8235D135E761600F4D611 /* slasq2.c in Sources */,
-				ABC8235E135E761600F4D611 /* slasq3.c in Sources */,
-				ABC8235F135E761600F4D611 /* slasq4.c in Sources */,
-				ABC82360135E761600F4D611 /* slasq5.c in Sources */,
-				ABC82361135E761600F4D611 /* slasq6.c in Sources */,
-				ABC82362135E761600F4D611 /* slasr_custom.c in Sources */,
-				ABC82363135E761600F4D611 /* slasrt.c in Sources */,
-				ABC82364135E761600F4D611 /* slassq.c in Sources */,
-				ABC82365135E761600F4D611 /* slasv2.c in Sources */,
-				ABC82366135E761600F4D611 /* slaswp.c in Sources */,
-				ABC82367135E761600F4D611 /* slatrd.c in Sources */,
-				ABC82368135E761600F4D611 /* slauu2.c in Sources */,
-				ABC82369135E761600F4D611 /* slauum.c in Sources */,
-				ABC8236A135E761600F4D611 /* snrm2.c in Sources */,
-				ABC8236B135E761600F4D611 /* sorg2r.c in Sources */,
-				ABC8236C135E761600F4D611 /* sorgbr.c in Sources */,
-				ABC8236D135E761600F4D611 /* sorgl2.c in Sources */,
-				ABC8236E135E761600F4D611 /* sorglq.c in Sources */,
-				ABC8236F135E761600F4D611 /* sorgqr.c in Sources */,
-				ABC82370135E761600F4D611 /* sorm2l.c in Sources */,
-				ABC82371135E761600F4D611 /* sorm2r.c in Sources */,
-				ABC82372135E761600F4D611 /* sormbr.c in Sources */,
-				ABC82373135E761600F4D611 /* sorml2.c in Sources */,
-				ABC82374135E761600F4D611 /* sormlq.c in Sources */,
-				ABC82375135E761600F4D611 /* sormql.c in Sources */,
-				ABC82376135E761600F4D611 /* sormqr.c in Sources */,
-				ABC82377135E761600F4D611 /* sormtr.c in Sources */,
-				ABC82378135E761600F4D611 /* spotf2.c in Sources */,
-				ABC82379135E761600F4D611 /* spotrf.c in Sources */,
-				ABC8237A135E761600F4D611 /* spotri.c in Sources */,
-				ABC8237B135E761600F4D611 /* spotrs.c in Sources */,
-				ABC8237C135E761600F4D611 /* srot.c in Sources */,
-				ABC8237D135E761600F4D611 /* sscal.c in Sources */,
-				ABC8237E135E761600F4D611 /* sstebz.c in Sources */,
-				ABC8237F135E761600F4D611 /* sstein.c in Sources */,
-				ABC82380135E761600F4D611 /* sstemr.c in Sources */,
-				ABC82381135E761600F4D611 /* ssteqr.c in Sources */,
-				ABC82382135E761600F4D611 /* ssterf.c in Sources */,
-				ABC82383135E761600F4D611 /* sswap.c in Sources */,
-				ABC82384135E761600F4D611 /* ssyevr.c in Sources */,
-				ABC82385135E761600F4D611 /* ssymv.c in Sources */,
-				ABC82386135E761600F4D611 /* ssyr2.c in Sources */,
-				ABC82387135E761600F4D611 /* ssyr2k.c in Sources */,
-				ABC82388135E761600F4D611 /* ssyrk.c in Sources */,
-				ABC82389135E761600F4D611 /* ssytd2.c in Sources */,
-				ABC8238A135E761600F4D611 /* ssytrd.c in Sources */,
-				ABC8238B135E761600F4D611 /* strmm.c in Sources */,
-				ABC8238C135E761600F4D611 /* strmv.c in Sources */,
-				ABC8238D135E761600F4D611 /* strsm.c in Sources */,
-				ABC8238E135E761600F4D611 /* strti2.c in Sources */,
-				ABC8238F135E761600F4D611 /* strtri.c in Sources */,
-				ABC82390135E761600F4D611 /* strtrs.c in Sources */,
-				ABC82391135E761600F4D611 /* xerbla.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4521,11 +3218,6 @@
 			target = ABC81FEC135E743800F4D611 /* zlib */;
 			targetProxy = ABC823A5135E768500F4D611 /* PBXContainerItemProxy */;
 		};
-		ABC823A8135E768500F4D611 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ABC82127135E760300F4D611 /* opencv_lapack */;
-			targetProxy = ABC823A7135E768500F4D611 /* PBXContainerItemProxy */;
-		};
 		ABC82408135E77AA00F4D611 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ABC823A1135E767D00F4D611 /* opencv_core */;
@@ -4771,11 +3463,6 @@
 			target = ABC827D4135E851500F4D611 /* opencv_haartraining_engine */;
 			targetProxy = ABC828B3135E899300F4D611 /* PBXContainerItemProxy */;
 		};
-		ABC828B6135E899300F4D611 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ABC82127135E760300F4D611 /* opencv_lapack */;
-			targetProxy = ABC828B5135E899300F4D611 /* PBXContainerItemProxy */;
-		};
 		ABC828B8135E899300F4D611 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ABC81FEC135E743800F4D611 /* zlib */;
@@ -4909,33 +3596,6 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = libpng;
-				SDKROOT = iphoneos;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		ABC82129135E760300F4D611 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PREBINDING = NO;
-				PRODUCT_NAME = opencv_lapack;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		ABC8212A135E760300F4D611 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PREBINDING = NO;
-				PRODUCT_NAME = opencv_lapack;
 				SDKROOT = iphoneos;
 				ZERO_LINK = NO;
 			};
@@ -5479,15 +4139,6 @@
 			buildConfigurations = (
 				ABC820F1135E754500F4D611 /* Debug */,
 				ABC820F2135E754500F4D611 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ABC82395135E761700F4D611 /* Build configuration list for PBXNativeTarget "opencv_lapack" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ABC82129135E760300F4D611 /* Debug */,
-				ABC8212A135E760300F4D611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
