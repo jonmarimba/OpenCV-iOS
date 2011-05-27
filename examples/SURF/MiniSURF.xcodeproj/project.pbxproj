@@ -27,7 +27,6 @@
 		AB2203B51364FDB800A52EF4 /* libopencv_flann.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB22034E1364F14300A52EF4 /* libopencv_flann.a */; };
 		AB2203B61364FDB800A52EF4 /* libopencv_haartraining_engine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB22035E1364F14300A52EF4 /* libopencv_haartraining_engine.a */; };
 		AB2203B71364FDB900A52EF4 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2203521364F14300A52EF4 /* libopencv_imgproc.a */; };
-		AB2203B81364FDB900A52EF4 /* libopencv_lapack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2203601364F14300A52EF4 /* libopencv_lapack.a */; };
 		AB2203B91364FDBA00A52EF4 /* libopencv_legacy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2203541364F14300A52EF4 /* libopencv_legacy.a */; };
 		AB2203BA1364FDBB00A52EF4 /* libopencv_ml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2203581364F14300A52EF4 /* libopencv_ml.a */; };
 		AB2203BB1364FDBB00A52EF4 /* libopencv_objdetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB22035A1364F14300A52EF4 /* libopencv_objdetect.a */; };
@@ -126,13 +125,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = ABC827D5135E851500F4D611;
 			remoteInfo = opencv_haartraining_engine;
-		};
-		AB22035F1364F14300A52EF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = ABC82128135E760300F4D611;
-			remoteInfo = opencv_lapack;
 		};
 		AB2203611364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -239,13 +231,6 @@
 			remoteGlobalIDString = ABC827D4135E851500F4D611;
 			remoteInfo = opencv_haartraining_engine;
 		};
-		AB22037F1364F15700A52EF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = ABC82127135E760300F4D611;
-			remoteInfo = opencv_lapack;
-		};
 		AB2203811364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
@@ -314,7 +299,6 @@
 				AB2203B51364FDB800A52EF4 /* libopencv_flann.a in Frameworks */,
 				AB2203B61364FDB800A52EF4 /* libopencv_haartraining_engine.a in Frameworks */,
 				AB2203B71364FDB900A52EF4 /* libopencv_imgproc.a in Frameworks */,
-				AB2203B81364FDB900A52EF4 /* libopencv_lapack.a in Frameworks */,
 				AB2203B91364FDBA00A52EF4 /* libopencv_legacy.a in Frameworks */,
 				AB2203BA1364FDBB00A52EF4 /* libopencv_ml.a in Frameworks */,
 				AB2203BB1364FDBB00A52EF4 /* libopencv_objdetect.a in Frameworks */,
@@ -421,7 +405,6 @@
 				AB22035A1364F14300A52EF4 /* libopencv_objdetect.a */,
 				AB22035C1364F14300A52EF4 /* libopencv_video.a */,
 				AB22035E1364F14300A52EF4 /* libopencv_haartraining_engine.a */,
-				AB2203601364F14300A52EF4 /* libopencv_lapack.a */,
 				AB2203621364F14300A52EF4 /* libzlib.a */,
 				AB2203641364F14300A52EF4 /* liblibjpeg.a */,
 				AB2203661364F14300A52EF4 /* liblibpng.a */,
@@ -455,7 +438,6 @@
 				AB22037A1364F15700A52EF4 /* PBXTargetDependency */,
 				AB22037C1364F15700A52EF4 /* PBXTargetDependency */,
 				AB22037E1364F15700A52EF4 /* PBXTargetDependency */,
-				AB2203801364F15700A52EF4 /* PBXTargetDependency */,
 				AB2203821364F15700A52EF4 /* PBXTargetDependency */,
 				AB2203841364F15700A52EF4 /* PBXTargetDependency */,
 				AB2203861364F15700A52EF4 /* PBXTargetDependency */,
@@ -578,13 +560,6 @@
 			remoteRef = AB22035D1364F14300A52EF4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		AB2203601364F14300A52EF4 /* libopencv_lapack.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libopencv_lapack.a;
-			remoteRef = AB22035F1364F14300A52EF4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		AB2203621364F14300A52EF4 /* libzlib.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -702,11 +677,6 @@
 			isa = PBXTargetDependency;
 			name = opencv_haartraining_engine;
 			targetProxy = AB22037D1364F15700A52EF4 /* PBXContainerItemProxy */;
-		};
-		AB2203801364F15700A52EF4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = opencv_lapack;
-			targetProxy = AB22037F1364F15700A52EF4 /* PBXContainerItemProxy */;
 		};
 		AB2203821364F15700A52EF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
