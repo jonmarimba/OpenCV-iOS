@@ -141,10 +141,7 @@
 #pragma mark - View lifecycle
 
 - (void)viewWillAppear:(BOOL)animated
-{
-//    UIImage *convertedScene = [OpenCVUtilities UIImageFromGRAYIplImage:image];
-//    [imageView setImage:convertedScene];
-    
+{    
     UIImage *convertedObject = [OpenCVUtilities UIImageFromGRAYIplImage:objectToFind];
     [imageView setImage:convertedObject];
     
