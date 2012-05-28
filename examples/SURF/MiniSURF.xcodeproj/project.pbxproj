@@ -25,7 +25,6 @@
 		AB2203B31364FDB600A52EF4 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB22034A1364F14300A52EF4 /* libopencv_core.a */; };
 		AB2203B41364FDB700A52EF4 /* libopencv_features2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB22034C1364F14300A52EF4 /* libopencv_features2d.a */; };
 		AB2203B51364FDB800A52EF4 /* libopencv_flann.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB22034E1364F14300A52EF4 /* libopencv_flann.a */; };
-		AB2203B61364FDB800A52EF4 /* libopencv_haartraining_engine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB22035E1364F14300A52EF4 /* libopencv_haartraining_engine.a */; };
 		AB2203B71364FDB900A52EF4 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2203521364F14300A52EF4 /* libopencv_imgproc.a */; };
 		AB2203B91364FDBA00A52EF4 /* libopencv_legacy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2203541364F14300A52EF4 /* libopencv_legacy.a */; };
 		AB2203BA1364FDBB00A52EF4 /* libopencv_ml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2203581364F14300A52EF4 /* libopencv_ml.a */; };
@@ -118,13 +117,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = ABC82646135E80B400F4D611;
 			remoteInfo = opencv_video;
-		};
-		AB22035D1364F14300A52EF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = ABC827D5135E851500F4D611;
-			remoteInfo = opencv_haartraining_engine;
 		};
 		AB2203611364F14300A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -224,13 +216,6 @@
 			remoteGlobalIDString = ABC82645135E80B400F4D611;
 			remoteInfo = opencv_video;
 		};
-		AB22037D1364F15700A52EF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = ABC827D4135E851500F4D611;
-			remoteInfo = opencv_haartraining_engine;
-		};
 		AB2203811364F15700A52EF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
@@ -251,6 +236,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = ABC820EF135E754400F4D611;
 			remoteInfo = libpng;
+		};
+		AB23217F1573E9610004D91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABA02A041573DA5600BC966A;
+			remoteInfo = opencv_highgui;
+		};
+		AB23218A1573EA470004D91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB2203301364F14300A52EF4 /* OpenCV-iOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA029E41573DA5600BC966A;
+			remoteInfo = opencv_highgui;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -297,7 +296,6 @@
 				AB2203B31364FDB600A52EF4 /* libopencv_core.a in Frameworks */,
 				AB2203B41364FDB700A52EF4 /* libopencv_features2d.a in Frameworks */,
 				AB2203B51364FDB800A52EF4 /* libopencv_flann.a in Frameworks */,
-				AB2203B61364FDB800A52EF4 /* libopencv_haartraining_engine.a in Frameworks */,
 				AB2203B71364FDB900A52EF4 /* libopencv_imgproc.a in Frameworks */,
 				AB2203B91364FDBA00A52EF4 /* libopencv_legacy.a in Frameworks */,
 				AB2203BA1364FDBB00A52EF4 /* libopencv_ml.a in Frameworks */,
@@ -404,10 +402,10 @@
 				AB2203581364F14300A52EF4 /* libopencv_ml.a */,
 				AB22035A1364F14300A52EF4 /* libopencv_objdetect.a */,
 				AB22035C1364F14300A52EF4 /* libopencv_video.a */,
-				AB22035E1364F14300A52EF4 /* libopencv_haartraining_engine.a */,
 				AB2203621364F14300A52EF4 /* libzlib.a */,
 				AB2203641364F14300A52EF4 /* liblibjpeg.a */,
 				AB2203661364F14300A52EF4 /* liblibpng.a */,
+				AB2321801573E9610004D91D /* libopencv_highgui.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -426,6 +424,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				AB23218B1573EA470004D91D /* PBXTargetDependency */,
 				AB2203681364F15700A52EF4 /* PBXTargetDependency */,
 				AB22036A1364F15700A52EF4 /* PBXTargetDependency */,
 				AB22036C1364F15700A52EF4 /* PBXTargetDependency */,
@@ -437,7 +436,6 @@
 				AB2203781364F15700A52EF4 /* PBXTargetDependency */,
 				AB22037A1364F15700A52EF4 /* PBXTargetDependency */,
 				AB22037C1364F15700A52EF4 /* PBXTargetDependency */,
-				AB22037E1364F15700A52EF4 /* PBXTargetDependency */,
 				AB2203821364F15700A52EF4 /* PBXTargetDependency */,
 				AB2203841364F15700A52EF4 /* PBXTargetDependency */,
 				AB2203861364F15700A52EF4 /* PBXTargetDependency */,
@@ -452,6 +450,9 @@
 /* Begin PBXProject section */
 		AB08E2A8132D54F8009E7B53 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
 			buildConfigurationList = AB08E2AB132D54F8009E7B53 /* Build configuration list for PBXProject "MiniSURF" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -553,13 +554,6 @@
 			remoteRef = AB22035B1364F14300A52EF4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		AB22035E1364F14300A52EF4 /* libopencv_haartraining_engine.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libopencv_haartraining_engine.a;
-			remoteRef = AB22035D1364F14300A52EF4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		AB2203621364F14300A52EF4 /* libzlib.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -579,6 +573,13 @@
 			fileType = archive.ar;
 			path = liblibpng.a;
 			remoteRef = AB2203651364F14300A52EF4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AB2321801573E9610004D91D /* libopencv_highgui.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libopencv_highgui.a;
+			remoteRef = AB23217F1573E9610004D91D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -673,11 +674,6 @@
 			name = opencv_video;
 			targetProxy = AB22037B1364F15700A52EF4 /* PBXContainerItemProxy */;
 		};
-		AB22037E1364F15700A52EF4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = opencv_haartraining_engine;
-			targetProxy = AB22037D1364F15700A52EF4 /* PBXContainerItemProxy */;
-		};
 		AB2203821364F15700A52EF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = zlib;
@@ -692,6 +688,11 @@
 			isa = PBXTargetDependency;
 			name = libpng;
 			targetProxy = AB2203851364F15700A52EF4 /* PBXContainerItemProxy */;
+		};
+		AB23218B1573EA470004D91D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = opencv_highgui;
+			targetProxy = AB23218A1573EA470004D91D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -739,7 +740,7 @@
 					"../../opencv-svn/opencv/include/opencv/**",
 					"../../opencv-svn/opencv/include/opencv2/**",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -758,7 +759,7 @@
 					"../../opencv-svn/opencv/include/opencv/**",
 					"../../opencv-svn/opencv/include/opencv2/**",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -775,6 +776,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiniSURF/MiniSURF-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../../opencv-svn/opencv//**";
 				INFOPLIST_FILE = "MiniSURF/MiniSURF-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -792,6 +794,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiniSURF/MiniSURF-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../../opencv-svn/opencv//**";
 				INFOPLIST_FILE = "MiniSURF/MiniSURF-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -815,7 +818,7 @@
 					"../../opencv-svn/opencv/include/opencv/**",
 					"../../opencv-svn/opencv/include/opencv2/**",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -832,6 +835,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiniSURF/MiniSURF-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "../../opencv-svn/opencv//**";
 				INFOPLIST_FILE = "MiniSURF/MiniSURF-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
