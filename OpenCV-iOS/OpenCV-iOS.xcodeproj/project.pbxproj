@@ -1523,7 +1523,7 @@
 		AB1DFFC716D9F70D00E9AA4B /* routine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = routine.cpp; sourceTree = "<group>"; };
 		AB3D41A61364EB22008FCC43 /* crt_externs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crt_externs.h; sourceTree = "<group>"; };
 		ABA029D91573DA1E00BC966A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		ABA02A041573DA5600BC966A /* libopencv_highgui.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopencv_highgui.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA02A041573DA5600BC966A /* libopencv_highgui.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libopencv_highgui.a; path = "/Users/jonathan/svnCheckouts/OpenCV-iOS/OpenCV-iOS/build/Release-iphoneos/libopencv_highgui.a"; sourceTree = "<absolute>"; };
 		ABC81FED135E743800F4D611 /* libzlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libzlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC82068135E74F000F4D611 /* liblibjpeg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibjpeg.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC820F0135E754400F4D611 /* liblibpng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibpng.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1655,7 +1655,6 @@
 				ABC81F8E135E731700F4D611 /* Source */,
 				ABA029D81573DA1D00BC966A /* Frameworks */,
 				ABC81F8C135E730D00F4D611 /* Products */,
-				ABA02A041573DA5600BC966A /* libopencv_highgui.a */,
 			);
 			name = "OpenCV-iOS";
 			sourceTree = "<group>";
@@ -2752,6 +2751,7 @@
 		ABC81F8E135E731700F4D611 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				AB3D41A61364EB22008FCC43 /* crt_externs.h */,
 				AB1DFFF516D9F7B700E9AA4B /* highgui */,
 				AB1DFF9916D9F70D00E9AA4B /* objdetect */,
 				AB1DFEEB16D9F67100E9AA4B /* contrib */,
@@ -2767,7 +2767,6 @@
 				AB1DFA2616D9EEDE00E9AA4B /* libpng */,
 				AB1DF9B216D9EE9A00E9AA4B /* libjpeg */,
 				AB1DF97716D9ED4000E9AA4B /* zlib */,
-				AB3D41A61364EB22008FCC43 /* crt_externs.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
